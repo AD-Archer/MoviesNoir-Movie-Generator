@@ -1,7 +1,8 @@
 
-# MovieNoir Random Movie Generator
+#  [MoviesNoir](https://bit.ly/4fcX3qv) Random Movie Generator
 
-## About MovieNoir
+## About  [MoviesNoir](https://bit.ly/4fcX3qv)
+
 
 MovieNoir is an online platform aimed at celebrating and promoting black culture by curating a collection of movies and TV shows that highlight diverse narratives and perspectives within the black community.
 
@@ -11,7 +12,7 @@ The Random Movie Generator is a feature developed specifically for MovieNoir. It
 
 ## Repository Contents
 
-This repository contains the source code and any necessary resources for the Random Movie Generator. Developers and contributors can find the implementation details, including scripts, stylesheets, and configuration files used to create and maintain this feature.
+This repository contains the source code and any necessary resources for the Random Movie Generator.
 
 ## Usage
 
