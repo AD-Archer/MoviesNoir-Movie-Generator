@@ -21,4 +21,6 @@ To integrate or modify the Random Movie Generator for use on another platform or
 
 Contributions to enhance the Random Movie Generator or improve its functionality within the context of MovieNoir are welcome.
 
+##Thank you
+This is my first web devolpment project so I wanted to create something simple but effective, I intend to update our catalog bit by bit and I would love for you all to join me. 
 
