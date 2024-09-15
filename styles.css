@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    color: #f5f5f5; /* Light text color for better readability */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #8c6d40; /* Slightly lighter cream chocolate caramel color */
+    border-radius: 10px; /* Rounded corners for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for container */
+}
+
+.button-container {
+    margin-bottom: 20px; /* Space between buttons and content */
+}
+
+.button {
+    background-color: #f8f1e5; /* Soft creamy brown button color */
+    color: #333; /* Darker text color for readability */
+    border: none;
+    padding: 14px 28px;
+    margin: 8px; /* Reduced margin for a tighter layout */
+    border-radius: 8px; /* Smoother button edges */
+    cursor: pointer;
+    font-size: 18px; /* Slightly smaller, more modern */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #e0d5c8; /* Lighter creamy brown on hover */
+    transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+.content-container {
+    margin-top: 20px; /* Space between buttons and content */
+}
+
+.content-container .content {
+    margin-top: 20px; /* Space around individual content items */
+    font-size: 18px; 
+    line-height: 1.6; /* Better readability */
+}
+
+.content-container img {
+    max-width: 100%; /* Responsive image sizing */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Add responsive design for smaller screens */
+@media (max-width: 600px) {
+    .button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .content-container .content {
+        font-size: 16px;
+    }
+}
