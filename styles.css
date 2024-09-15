@@ -50,8 +50,12 @@ body {
 }
 
 .content-container img {
-    max-width: 100%; /* Responsive image sizing */
+    width: 100%; /* Make images responsive to container width */
+    max-width: 400px; /* Cap the maximum width of images */
+    aspect-ratio: 3/4; /* Maintain a common aspect ratio for images */
+    object-fit: contain; /* Ensure the whole image is visible without distortion */
     border-radius: 8px; /* Rounded corners for images */
+    margin: 10px 0; /* Space above and below the image */
 }
 
 /* Add responsive design for smaller screens */
@@ -67,5 +71,10 @@ body {
 
     .content-container .content {
         font-size: 16px;
+    }
+
+    .content-container img {
+        max-width: 100%; /* Allow images to take full width of smaller screens */
+        aspect-ratio: auto; /* Adjust aspect ratio for flexibility */
     }
 }
