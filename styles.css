@@ -6,6 +6,7 @@ body {
     margin: 0;
     color: #f5f5f5; /* Light text color for better readability */
     font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #8c6d40, #f5f5f5); /* Gradient background */
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
     max-width: 800px;
     background-color: #8c6d40; /* Slightly lighter cream chocolate caramel color */
     border-radius: 10px; /* Rounded corners for container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow for container */
 }
 
 .button-container {
@@ -31,12 +32,13 @@ body {
     cursor: pointer;
     font-size: 18px; /* Slightly smaller, more modern */
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button:hover {
     background-color: #e0d5c8; /* Lighter creamy brown on hover */
     transform: translateY(-2px); /* Subtle lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow on hover */
 }
 
 .content-container {
