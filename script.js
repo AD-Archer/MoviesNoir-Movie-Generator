@@ -1,6 +1,19 @@
 let clickCount = 0;
+let movieIndex = 0;
+let showIndex = 0;
+let shuffledMovies = [];
+let shuffledShows = [];
 
-// Generates Movies
+// Fisher-Yates shuffle to randomize arrays
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Generates Movies or Shows
 function displayRandomMedia(type) {
     const contentContainer = document.querySelector('.content-container');
     const content = contentContainer.querySelector('.content');
@@ -8,7 +21,7 @@ function displayRandomMedia(type) {
         content.remove();
     }
 
-    // creates pop up
+    // Creates pop-up every 10 clicks
     clickCount++;
     if (clickCount === 10) {
         promptForComment();
@@ -18,14 +31,14 @@ function displayRandomMedia(type) {
         newContent.className = 'content'; // Add class for easier removal
 
         if (type === 'movie') {
-            const randomMovie = getRandomMovie();
+            const randomMovie = getNextMovie();
             newContent.innerHTML = `
                 <h2>${randomMovie.title}</h2>
                 <img src="${randomMovie.image}" alt="${randomMovie.title}" style="max-width: 40%;">
                 <p>${randomMovie.description}</p>
             `;
         } else if (type === 'show') {
-            const randomTVShow = getRandomTVShow();
+            const randomTVShow = getNextShow();
             newContent.innerHTML = `
                 <h2>${randomTVShow.title}</h2>
                 <img src="${randomTVShow.image}" alt="${randomTVShow.title}" style="max-width: 40%;">
@@ -36,123 +49,143 @@ function displayRandomMedia(type) {
     }
 }
 
+// Initialize shuffled movie list
+function initMovieList() {
+    shuffledMovies = shuffle(movies.slice());
+}
 
-// Array of movies
-function getRandomMovie() {
-    const movies = [
+// Initialize shuffled show list
+function initShowList() {
+    shuffledShows = shuffle(shows.slice());
+}
+
+// Get the next movie from the shuffled list
+function getNextMovie() {
+    if (movieIndex >= shuffledMovies.length) {
+        movieIndex = 0; // Reset index and shuffle again
+        shuffledMovies = shuffle(movies.slice());
+    }
+    return shuffledMovies[movieIndex++];
+}
+
+// Get the next show from the shuffled list
+function getNextShow() {
+    if (showIndex >= shuffledShows.length) {
+        showIndex = 0; // Reset index and shuffle again
+        shuffledShows = shuffle(shows.slice());
+    }
+    return shuffledShows[showIndex++];
+}
+
+// Example arrays of movies and shows
+const movies = [
     {
-  "title": "Black Panther (2018) - IMDb: 7.3/10",
-  "image": "https://m.media-amazon.com/images/I/A1PaCX4oXjL.jpg",
-  "description": "Marvel's superhero film follows T'Challa, the king of Wakanda, as he grapples with the responsibilities of the throne and the challenges to his nation. (PG-13)"
-},
-{
-  "title": "Get Out (2017) - IMDb: 7.7/10",
-  "image": "https://i.ebayimg.com/images/g/XgoAAOSwpnBjDKaF/s-l1600.jpg",
-  "description": "A horror-thriller exploring racism and cultural appropriation as a young Black man discovers disturbing secrets during a visit to his white girlfriend's family estate. (R)"
-},
-{
-  "title": "Hidden Figures (2016) - IMDb: 7.8/10",
-  "image": "https://m.media-amazon.com/images/I/710stdsMzzL._AC_UF894,1000_QL80_.jpg",
-  "description": "Based on true events, this film highlights the vital contributions of three African-American women mathematicians at NASA during the Space Race. (PG)"
-},
-{
-  "title": "Moonlight (2016) - IMDb: 7.4/10",
-  "image": "https://m.media-amazon.com/images/I/91Tu1WACkuL.jpg",
-  "description": "A coming-of-age drama that chronicles the life of a young Black man named Chiron as he grapples with his identity and sexuality. (R)"
-},
-{
-  "title": "Django Unchained (2012) - IMDb: 8.4/10",
-  "image": "https://m.media-amazon.com/images/I/61xAjmBc-0L._AC_UF894,1000_QL80_.jpg",
-  "description": "Quentin Tarantino's western follows a freed slave turned bounty hunter seeking to rescue his wife from a brutal plantation owner. (R)"
-},
-{
-  "title": "The Help (2011) - IMDb: 8.0/10",
-  "image": "https://m.media-amazon.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_.jpg",
-  "description": "Set in 1960s Mississippi, this drama explores the relationships between Black maids and their white employers during the Civil Rights Movement. (PG-13)"
-},
-{
-  "title": "Fruitvale Station (2013) - IMDb: 7.5/10",
-  "image": "https://m.media-amazon.com/images/M/MV5BMDYxODgyOTItYWRjZS00ZTE5LWJkNmMtN2I4YmJjNTYxOWY5XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
-  "description": "Based on a true story, this film depicts the last day in the life of Oscar Grant, a young Black man shot by a transit officer in Oakland. (R)"
-},
-{
-  "title": "Selma (2014) - IMDb: 7.5/10",
-  "image": "https://amc-theatres-res.cloudinary.com/v1579119708/amc-cdn/production/2/movies/45900/45875/Poster/p_800x1200_Selma_En_030416.jpg",
-  "description": "A historical drama focusing on Dr. Martin Luther King Jr.'s campaign for equal voting rights during the 1965 Selma to Montgomery marches. (PG-13)"
-},
-{
-  "title": "12 Years a Slave (2013) - IMDb: 8.1/10",
-  "image": "https://myhotposters.com/cdn/shop/products/HP3031_34e93235-ae75-43e0-a248-5133c24fd5e3_1024x1024.jpg?v=1571445096",
-  "description": "An adaptation of Solomon Northup's memoir, this film tells the harrowing story of a free Black man kidnapped and sold into slavery. (R)"
-},
-{
-  "title": "Ray (2004) - IMDb: 7.7/10",
-  "image": "https://i.ebayimg.com/images/g/LiUAAOSwmGNfzUyE/s-l1600.jpg",
-  "description": "A biopic depicting the life and career of legendary musician Ray Charles, exploring his triumphs and struggles. (PG-13)"
-},
-{
-  "title": "Malcolm X (1992) - IMDb: 7.7/10",
-  "image": "https://m.media-amazon.com/images/I/91x9FYikBIL._AC_UF894,1000_QL80_.jpg",
-  "description": "Spike Lee directs this biographical film, chronicling the life and evolution of civil rights leader Malcolm X. (PG-13)"
-},
-{
-  "title": "The Color Purple (1985) - IMDb: 7.8/10",
-  "image": "https://m.media-amazon.com/images/M/MV5BYjBkNGE0NGYtYmU5Ny00NjRiLTk5MmYtMWU4NzYxMDE4YWY4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-  "description": "Based on Alice Walker's novel, this film portrays the life of an African-American woman named Celie in the early 20th century. (PG-13)"
-},
-{
-  "title": "Coming to America (1988) - IMDb: 7.1/10",
-  "image": "https://image.tmdb.org/t/p/original/os1vUxxiRYNAq21phgH2B3eNX4r.jpg",
-  "description": "Eddie Murphy stars as an African prince who travels to America to find true love and escape his arranged marriage. (R)"
-},
-{
-  "title": "Coming 2 America (2021) - IMDb: 5.4/10",
-  "image": "https://m.media-amazon.com/images/M/MV5BZTMyY2Q2MDctMDFlMS00MWEzLTk1NmEtNDcxNzg1ZGJlNGU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
-  "description": "Prince Akeem returns to America when he discovers he has a long-lost son, igniting a new comedic adventure filled with hilarious encounters and cultural clashes. (PG-13)"
-},
-{
-  "title": "Do the Right Thing (1989) - IMDb: 7.9/10",
-  "image": "https://i.etsystatic.com/18242346/r/il/144e99/2458211731/il_fullxfull.2458211731_11kj.jpg",
-  "description": "Spike Lee's iconic film explores racial tensions in a Brooklyn neighborhood during a scorching summer day. (R)"
-},
-{
-  "title": "Precious (2009) - IMDb: 7.3/10",
-  "image": "https://m.media-amazon.com/images/I/51p4BPTlr4L._AC_UF894,1000_QL80_.jpg",
-  "description": "A powerful drama about an abused and illiterate teenager named Precious who strives for a better life. (R)"
-},
-{
-  "title": "A Raisin in the Sun (1961) - IMDb: 8.0/10",
-  "image": "https://d21ehp1kf1k9m9.cloudfront.net/wp-content/uploads/2022/08/22164914/a-raisin-in-the-sun-poster-250x455.jpg",
-  "description": "Adapted from Lorraine Hansberry's play, this film explores the struggles of a Black family in 1950s Chicago. (NR)"
-},
-{
-  "title": "The Pursuit of Happiness (2006) - IMDb: 8.0/10",
-  "image": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_.jpg",
-  "description": "Based on a true story, this film follows Chris Gardner's journey from homelessness to a successful career as a stockbroker. (PG-13)"
-},
-{
-  "title": "Creed (2015) - IMDb: 7.6/10",
-  "image": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2899156/5911624/MOVIB91465__73535.1679565231.jpg?c=2",
-  "description": "A sports drama that follows Adonis Creed, the son of Apollo Creed, as he trains to become a professional boxer under the guidance of Rocky Balboa. (PG-13)"
-},
-{
-  "title": "The Butler (2013) - IMDb: 7.2/10",
-  "image": "https://m.media-amazon.com/images/M/MV5BMjA3MTg2MDk5OF5BMl5BanBnXkFtZTcwNjk5ODAxOQ@@._V1_.jpg",
-  "description": "A historical drama about a White House butler who served eight American presidents and witnessed significant moments in American history. (PG-13)"
-}
+    "title": "Black Panther (2018) - IMDb: 7.3/10",
+    "image": "https://m.media-amazon.com/images/I/A1PaCX4oXjL.jpg",
+    "description": "Marvel's superhero film follows T'Challa, the king of Wakanda, as he grapples with the responsibilities of the throne and the challenges to his nation. (PG-13)"
+  },
+  {
+    "title": "Get Out (2017) - IMDb: 7.7/10",
+    "image": "https://i.ebayimg.com/images/g/XgoAAOSwpnBjDKaF/s-l1600.jpg",
+    "description": "A horror-thriller exploring racism and cultural appropriation as a young Black man discovers disturbing secrets during a visit to his white girlfriend's family estate. (R)"
+  },
+  {
+    "title": "Hidden Figures (2016) - IMDb: 7.8/10",
+    "image": "https://m.media-amazon.com/images/I/710stdsMzzL._AC_UF894,1000_QL80_.jpg",
+    "description": "Based on true events, this film highlights the vital contributions of three African-American women mathematicians at NASA during the Space Race. (PG)"
+  },
+  {
+    "title": "Moonlight (2016) - IMDb: 7.4/10",
+    "image": "https://m.media-amazon.com/images/I/91Tu1WACkuL.jpg",
+    "description": "A coming-of-age drama that chronicles the life of a young Black man named Chiron as he grapples with his identity and sexuality. (R)"
+  },
+  {
+    "title": "Django Unchained (2012) - IMDb: 8.4/10",
+    "image": "https://m.media-amazon.com/images/I/61xAjmBc-0L._AC_UF894,1000_QL80_.jpg",
+    "description": "Quentin Tarantino's western follows a freed slave turned bounty hunter seeking to rescue his wife from a brutal plantation owner. (R)"
+  },
+  {
+    "title": "The Help (2011) - IMDb: 8.0/10",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_.jpg",
+    "description": "Set in 1960s Mississippi, this drama explores the relationships between Black maids and their white employers during the Civil Rights Movement. (PG-13)"
+  },
+  {
+    "title": "Fruitvale Station (2013) - IMDb: 7.5/10",
+    "image": "https://m.media-amazon.com/images/M/MV5BMDYxODgyOTItYWRjZS00ZTE5LWJkNmMtN2I4YmJjNTYxOWY5XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+    "description": "Based on a true story, this film depicts the last day in the life of Oscar Grant, a young Black man shot by a transit officer in Oakland. (R)"
+  },
+  {
+    "title": "Selma (2014) - IMDb: 7.5/10",
+    "image": "https://amc-theatres-res.cloudinary.com/v1579119708/amc-cdn/production/2/movies/45900/45875/Poster/p_800x1200_Selma_En_030416.jpg",
+    "description": "A historical drama focusing on Dr. Martin Luther King Jr.'s campaign for equal voting rights during the 1965 Selma to Montgomery marches. (PG-13)"
+  },
+  {
+    "title": "12 Years a Slave (2013) - IMDb: 8.1/10",
+    "image": "https://myhotposters.com/cdn/shop/products/HP3031_34e93235-ae75-43e0-a248-5133c24fd5e3_1024x1024.jpg?v=1571445096",
+    "description": "An adaptation of Solomon Northup's memoir, this film tells the harrowing story of a free Black man kidnapped and sold into slavery. (R)"
+  },
+  {
+    "title": "Ray (2004) - IMDb: 7.7/10",
+    "image": "https://i.ebayimg.com/images/g/LiUAAOSwmGNfzUyE/s-l1600.jpg",
+    "description": "A biopic depicting the life and career of legendary musician Ray Charles, exploring his triumphs and struggles. (PG-13)"
+  },
+  {
+    "title": "Malcolm X (1992) - IMDb: 7.7/10",
+    "image": "https://m.media-amazon.com/images/I/91x9FYikBIL._AC_UF894,1000_QL80_.jpg",
+    "description": "Spike Lee directs this biographical film, chronicling the life and evolution of civil rights leader Malcolm X. (PG-13)"
+  },
+  {
+    "title": "The Color Purple (1985) - IMDb: 7.8/10",
+    "image": "https://m.media-amazon.com/images/M/MV5BYjBkNGE0NGYtYmU5Ny00NjRiLTk5MmYtMWU4NzYxMDE4YWY4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+    "description": "Based on Alice Walker's novel, this film portrays the life of an African-American woman named Celie in the early 20th century. (PG-13)"
+  },
+  {
+    "title": "Coming to America (1988) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/original/os1vUxxiRYNAq21phgH2B3eNX4r.jpg",
+    "description": "Eddie Murphy stars as an African prince who travels to America to find true love and escape his arranged marriage. (R)"
+  },
+  {
+    "title": "Coming 2 America (2021) - IMDb: 5.4/10",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTMyY2Q2MDctMDFlMS00MWEzLTk1NmEtNDcxNzg1ZGJlNGU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+    "description": "Prince Akeem returns to America when he discovers he has a long-lost son, igniting a new comedic adventure filled with hilarious encounters and cultural clashes. (PG-13)"
+  },
+  {
+    "title": "Do the Right Thing (1989) - IMDb: 7.9/10",
+    "image": "https://i.etsystatic.com/18242346/r/il/144e99/2458211731/il_fullxfull.2458211731_11kj.jpg",
+    "description": "Spike Lee's iconic film explores racial tensions in a Brooklyn neighborhood during a scorching summer day. (R)"
+  },
+  {
+    "title": "Precious (2009) - IMDb: 7.3/10",
+    "image": "https://m.media-amazon.com/images/I/51p4BPTlr4L._AC_UF894,1000_QL80_.jpg",
+    "description": "A powerful drama about an abused and illiterate teenager named Precious who strives for a better life. (R)"
+  },
+  {
+    "title": "A Raisin in the Sun (1961) - IMDb: 8.0/10",
+    "image": "https://d21ehp1kf1k9m9.cloudfront.net/wp-content/uploads/2022/08/22164914/a-raisin-in-the-sun-poster-250x455.jpg",
+    "description": "Adapted from Lorraine Hansberry's play, this film explores the struggles of a Black family in 1950s Chicago. (NR)"
+  },
+  {
+    "title": "The Pursuit of Happiness (2006) - IMDb: 8.0/10",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_.jpg",
+    "description": "Based on a true story, this film follows Chris Gardner's journey from homelessness to a successful career as a stockbroker. (PG-13)"
+  },
+  {
+    "title": "Creed (2015) - IMDb: 7.6/10",
+    "image": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2899156/5911624/MOVIB91465__73535.1679565231.jpg?c=2",
+    "description": "A sports drama that follows Adonis Creed, the son of Apollo Creed, as he trains to become a professional boxer under the guidance of Rocky Balboa. (PG-13)"
+  },
+  {
+    "title": "The Butler (2013) - IMDb: 7.2/10",
+    "image": "images/Movies/The Bulter.jpg",
+    "description": "A historical drama about a White House butler who served eight American presidents and witnessed significant moments in American history. (PG-13)"
+  }
+  
+  
 
+];
 
-
-          
-
-    ];
-    return movies[Math.floor(Math.random() * movies.length)];
-}
-
-// Array of shows
-function getRandomTVShow() {
-    const tvShows = [
-        
+const shows = [
+   
     {
         "title": "The Wire (2002–2008) - IMDb: 9.3",
         "image": "https://image.tmdb.org/t/p/original/nRaqqDDnIFFjJfWEK0yMlZ3FXc6.jpg",
@@ -225,7 +258,7 @@ function getRandomTVShow() {
     },
     {
         "title": "Grown-ish (2018– ) - IMDb: 6.4",
-        "image": "https://lh3.googleusercontent.com/proxy/QPS-TwGR-NT1jnbGm5v_jQhhsq6WTVp8yDJwz_yko8LelhE9l42j-x81hn9ZQPjFpZoI_7JzzCbSOU2RHraepEpTEGuCYIGKRnrpD7I",
+        "image": "images/Tv/Grownish.jpeg",
         "description": "A spin-off of Black-ish, it follows the Johnson family's eldest daughter, Zoey, as she navigates college life. (TV-14)"
     },
     {
@@ -250,18 +283,19 @@ function getRandomTVShow() {
     },
     {
         "title": "Snowfall (2017– ) - IMDb: 8.2",
-        "image": "https://pics.filmaffinity.com/Snowfall_TV_Series-726709842-large.jpg",
+        "image": "images/Tv/Snow Fall.jpeg",
         "description": "Dives into the rise of the crack cocaine epidemic in 1980s Los Angeles and its impact on the city. (TV-MA)"
     },
     {
         "title": "Good Times (1974–1979) - IMDb: 7.4",
-        "image": "https://flxt.tmsimg.com/assets/p55348_i_h8_ab.jpg",
+        "image": "images/Tv/Good Times.jpeg",
         "description": "A sitcom focusing on the struggles and triumphs of a Black family living in a Chicago housing project. (TV-PG)"
     }
 
 
 
+];
 
-    ];
-    return tvShows[Math.floor(Math.random() * tvShows.length)];
-}
+// Initialize the shuffled lists when the page loads
+initMovieList();
+initShowList();
