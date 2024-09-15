@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: black; /* Black text color */
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+}
+
+.button {
+    background-color: #f8f1e5; /* Soft creamy brown button color */
+    color: black; /* Black text color */
+    border: none;
+    padding: 12px 24px; 
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 24px; 
+}
+
+
+.button:hover {
+    background-color: #e0d5c8; /* Lighter creamy brown on hover */
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #282828;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white; /* White background */
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #282828;
+}
+
+.close-btn:hover {
+    color: red;
+}
+  
+ .content p {
+    font-size: 30px; 
+}
