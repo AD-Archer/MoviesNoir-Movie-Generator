@@ -6,8 +6,8 @@ body {
     margin: 0;
     color: #f5f5f5; /* Light text color for better readability */
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #8c6d40, #f5f5f5); /* Gradient background */
-}
+    /* background: linear-gradient(135deg, #8c6d40, #f5f5f5); /* Gradient background */
+} */
 
 .container {
     text-align: center;
