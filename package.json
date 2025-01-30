@@ -7,7 +7,7 @@
     "update-db": "node src/utils/updateDatabase.js",
     "test": "node tests/test-env.js"
   },
-  "description": "## 🌟 About [MoviesNoir](https://bit.ly/4fcX3qv) 🌟",
+  "description": "",
   "main": "server.js",
   "keywords": [],
   "author": "",

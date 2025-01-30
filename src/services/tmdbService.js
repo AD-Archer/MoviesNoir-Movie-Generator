@@ -16,45 +16,69 @@ class TMDBService {
         this.headers = {
             'Content-Type': 'application/json'
         };
+
         // Keywords for Black representation
         this.blackRepresentationKeywords = [
-            '158718',  // African American
-            '179431',  // Black People
-            '251585',  // Black Culture
-            '195194',  // Black History
-            '195195',  // Black Experience
-            '245830'   // Black Lives Matter
+            158718,  // African American
+            179431,  // Black People
+            251585,  // Black Culture
+            195194,  // Black History
+            195195,  // Black Experience
+            245830,  // Black Lives Matter
+            256513,  // Black Excellence
+            272469,  // Black Joy
+            279259,  // Black Family
+            272470   // Black Love
         ];
+
         // IDs for production companies known for Black content
         this.blackProductionCompanies = [
-            '3528',   // Tyler Perry Studios
-            '13240',  // 40 Acres & A Mule
-            '145458', // SpringHill Entertainment (LeBron James)
-            '103731', // Khalabo Ink Society
-            '94795'   // Monkeypaw Productions (Jordan Peele)
+            3528,    // Tyler Perry Studios
+            13240,   // 40 Acres & A Mule
+            145458,  // SpringHill Entertainment
+            103731,  // Khalabo Ink Society
+            94795,   // Monkeypaw Productions
+            7429,    // Will Packer Productions
+            114152,  // Outlier Society
+            4171     // Rainforest Films
+        ];
+
+        // Prominent Black actors and directors for person search
+        this.prominentPersons = [
+            18918,   // Will Smith
+            134,     // Denzel Washington
+            34847,   // Morgan Freeman
+            5292,    // Spike Lee
+            84433,   // Jordan Peele
+            34489,   // Tyler Perry
+            172069,  // Ryan Coogler
+            1271624, // Ava DuVernay
+            1178753  // Barry Jenkins
         ];
     }
 
     async searchBlackMovies(page = 1) {
         try {
-            const response = await axios.get(`${this.baseURL}/discover/movie`, {
-                headers: this.headers,
-                params: {
-                    api_key: this.apiKey,
-                    with_keywords: this.blackRepresentationKeywords.join('|'),
-                    with_companies: this.blackProductionCompanies.join('|'),
-                    sort_by: 'popularity.desc',
-                    page: page,
-                    include_adult: false,
-                    'vote_count.gte': 20, // Ensure some minimum votes for quality
-                    with_original_language: 'en', // English language content
-                    'vote_average.gte': 5.0 // Minimum rating threshold
-                }
-            });
+            // Make multiple requests to get a diverse set of Black films
+            const [keywordResults, companyResults, personResults] = await Promise.all([
+                // Search by keywords
+                this.searchMoviesByKeywords(page),
+                // Search by production companies
+                this.searchMoviesByCompanies(page),
+                // Search by prominent persons
+                this.searchMoviesByPersons(page)
+            ]);
 
-            return response.data.results.map(movie => ({
+            // Combine and deduplicate results based on movie ID
+            const combinedMovies = this.deduplicateResults([
+                ...keywordResults,
+                ...companyResults,
+                ...personResults
+            ]);
+
+            return combinedMovies.map(movie => ({
                 title: `${movie.title} (${movie.release_date?.split('-')[0] || 'N/A'}) - IMDb: ${movie.vote_average}/10`,
-                image: `https://image.tmdb.org/t/p/original${movie.poster_path}`,
+                image: movie.poster_path ? `https://image.tmdb.org/t/p/original${movie.poster_path}` : null,
                 description: movie.overview,
                 genres: movie.genre_ids,
                 rating: this.convertRating(movie.adult),
@@ -68,23 +92,20 @@ class TMDBService {
 
     async searchBlackTVShows(page = 1) {
         try {
-            const response = await axios.get(`${this.baseURL}/discover/tv`, {
-                headers: this.headers,
-                params: {
-                    api_key: this.apiKey,
-                    with_keywords: this.blackRepresentationKeywords.join('|'),
-                    with_companies: this.blackProductionCompanies.join('|'),
-                    sort_by: 'popularity.desc',
-                    page: page,
-                    'vote_count.gte': 20,
-                    with_original_language: 'en',
-                    'vote_average.gte': 5.0
-                }
-            });
+            // Similar approach for TV shows
+            const [keywordResults, companyResults] = await Promise.all([
+                this.searchTVShowsByKeywords(page),
+                this.searchTVShowsByCompanies(page)
+            ]);
 
-            return response.data.results.map(show => ({
+            const combinedShows = this.deduplicateResults([
+                ...keywordResults,
+                ...companyResults
+            ]);
+
+            return combinedShows.map(show => ({
                 title: `${show.name} (${show.first_air_date?.split('-')[0] || 'N/A'}) - IMDb: ${show.vote_average}/10`,
-                image: `https://image.tmdb.org/t/p/original${show.poster_path}`,
+                image: show.poster_path ? `https://image.tmdb.org/t/p/original${show.poster_path}` : null,
                 description: show.overview,
                 genres: show.genre_ids,
                 rating: this.convertRating(show.adult)
@@ -93,6 +114,97 @@ class TMDBService {
             console.error('Error fetching black TV shows:', error);
             throw error;
         }
+    }
+
+    async searchMoviesByKeywords(page) {
+        const response = await axios.get(`${this.baseURL}/discover/movie`, {
+            headers: this.headers,
+            params: {
+                api_key: this.apiKey,
+                with_keywords: this.blackRepresentationKeywords.join('|'),
+                sort_by: 'popularity.desc',
+                page,
+                include_adult: false,
+                'vote_count.gte': 50,
+                with_original_language: 'en',
+                'vote_average.gte': 6.0
+            }
+        });
+        return response.data.results;
+    }
+
+    async searchMoviesByCompanies(page) {
+        const response = await axios.get(`${this.baseURL}/discover/movie`, {
+            headers: this.headers,
+            params: {
+                api_key: this.apiKey,
+                with_companies: this.blackProductionCompanies.join('|'),
+                sort_by: 'popularity.desc',
+                page,
+                include_adult: false,
+                'vote_count.gte': 50,
+                with_original_language: 'en',
+                'vote_average.gte': 6.0
+            }
+        });
+        return response.data.results;
+    }
+
+    async searchMoviesByPersons(page) {
+        const results = [];
+        for (const personId of this.prominentPersons) {
+            const response = await axios.get(`${this.baseURL}/person/${personId}/movie_credits`, {
+                headers: this.headers,
+                params: {
+                    api_key: this.apiKey
+                }
+            });
+            results.push(...response.data.cast.slice(0, 5));
+        }
+        return results;
+    }
+
+    async searchTVShowsByKeywords(page) {
+        const response = await axios.get(`${this.baseURL}/discover/tv`, {
+            headers: this.headers,
+            params: {
+                api_key: this.apiKey,
+                with_keywords: this.blackRepresentationKeywords.join('|'),
+                sort_by: 'popularity.desc',
+                page,
+                'vote_count.gte': 50,
+                with_original_language: 'en',
+                'vote_average.gte': 6.0
+            }
+        });
+        return response.data.results;
+    }
+
+    async searchTVShowsByCompanies(page) {
+        const response = await axios.get(`${this.baseURL}/discover/tv`, {
+            headers: this.headers,
+            params: {
+                api_key: this.apiKey,
+                with_companies: this.blackProductionCompanies.join('|'),
+                sort_by: 'popularity.desc',
+                page,
+                'vote_count.gte': 50,
+                with_original_language: 'en',
+                'vote_average.gte': 6.0
+            }
+        });
+        return response.data.results;
+    }
+
+    deduplicateResults(results) {
+        const seen = new Set();
+        return results.filter(item => {
+            if (seen.has(item.id)) {
+                return false;
+            }
+            seen.add(item.id);
+            return true;
+        });
     }
 
     convertRating(isAdult) {
