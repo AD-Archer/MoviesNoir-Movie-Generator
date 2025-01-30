@@ -1,11 +1,18 @@
-import { Pool } from 'pg';
-import Movie from '../models/Movie';
-import TVShow from '../models/TVShow';
+import pkg from 'pg';
+const { Pool } = pkg;
+import Movie from '../models/Movie.js';
+import TVShow from '../models/TVShow.js';
 import { Op } from 'sequelize';
-import sequelize from '../config/database';
+import sequelize from '../config/database.js';
 import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import path from 'path';
 
-dotenv.config();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+dotenv.config({ path: path.join(dirname(__dirname), '../.env') });
 
 // Simple API handler for the movie generator
 class MovieGeneratorAPI {

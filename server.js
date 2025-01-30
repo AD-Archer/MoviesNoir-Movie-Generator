@@ -1,8 +1,13 @@
 import express from 'express';
 import cors from 'cors';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 import path from 'path';
 import sequelize from './src/config/database.js';
 import MovieGeneratorAPI from './src/api/api.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -14,9 +19,12 @@ app.use(express.static(path.join(__dirname, 'src/public')));
 const api = new MovieGeneratorAPI();
 
 // Test database connection
-sequelize.authenticate()
-    .then(() => console.log('Database connected successfully'))
-    .catch(err => console.error('Unable to connect to the database:', err));
+try {
+    await sequelize.authenticate();
+    console.log('Database connected successfully');
+} catch (err) {
+    console.error('Unable to connect to the database:', err);
+}
 
 // API endpoints
 app.get('/api/random/movie', async (req, res) => {
