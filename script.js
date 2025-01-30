@@ -65,9 +65,16 @@ function getNextShow() {
 // Display media function
 function displayRandomMedia(type) {
     const contentContainer = document.querySelector('.content-container');
+    const title = document.querySelector('h1'); // Get the title element
+    
     if (!contentContainer) {
         console.error('Content container not found.');
         return;
+    }
+
+    // Hide the title
+    if (title) {
+        title.style.display = 'none';
     }
 
     const content = contentContainer.querySelector('.content');
@@ -75,9 +82,8 @@ function displayRandomMedia(type) {
         content.remove();
     }
 
-   
     const newContent = document.createElement('div');
-    newContent.className = 'content'; // Add class for easier removal
+    newContent.className = 'content';
 
     if (type === 'movie') {
         const randomMovie = getNextMovie();
