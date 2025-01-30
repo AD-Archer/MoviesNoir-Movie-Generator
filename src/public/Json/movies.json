@@ -251,7 +251,12 @@
   {
     "title": "Black Panther (2018) - IMDb: 7.3/10",
     "image": "https://m.media-amazon.com/images/I/A1PaCX4oXjL.jpg",
-    "description": "Marvel's superhero film follows T'Challa, the king of Wakanda, as he grapples with the responsibilities of the throne and the challenges to his nation. (PG-13)"
+    "description": "Marvel's superhero film follows T'Challa, the king of Wakanda, as he grapples with the responsibilities of the throne and the challenges to his nation. (PG-13)",
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "rating": "PG-13",
+    "runtime": "134",
+    "director": "Ryan Coogler",
+    "year": "2018"
   },
   {
     "title": "Get Out (2017) - IMDb: 7.7/10",
