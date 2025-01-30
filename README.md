@@ -24,7 +24,7 @@ URL='http://localhost'
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/AD-Archer/MoviesNoir-Movie-Generator.git
    ```
 2. Navigate to the project directory:
    ```sh
