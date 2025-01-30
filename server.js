@@ -11,7 +11,7 @@ const __dirname = dirname(__filename);
 
 const app = express();
 const port = process.env.PORT || 3000;
-
+const url = process.env.URL || 'http://localhost';
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'src/public')));
@@ -46,5 +46,5 @@ app.get('/api/random/show', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log(`Server running on port ${url}:${port}`);
 }); 

@@ -1,6 +1,6 @@
-import sequelize from '../config/database';
-import Movie from '../models/Movie';
-import TVShow from '../models/TVShow';
+import sequelize from '../config/database.js';
+import Movie from '../models/Movie.js';
+import TVShow from '../models/TVShow.js';
 
 class DatabaseService {
     async initializeTables() {
