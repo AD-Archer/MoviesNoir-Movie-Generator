@@ -7,22 +7,25 @@ let shuffledShows = [];
 let clickCount = 0; // Initialize clickCount
 
 // Fetch JSON data
-function loadData() {
-    fetch('Json/movies.json')
-        .then(response => response.json())
-        .then(data => {
-            movies = data;
-            initMovieList();
-        })
-        .catch(error => console.error('Error loading movies:', error));
+async function loadData() {
+    try {
+        // Fetch all movie lists with updated paths
+        const [halloweenMovies, generalMovies] = await Promise.all([
+            fetch('Json/movies/halloween_movies.json').then(response => response.json()),
+            fetch('Json/movies/general_movies.json').then(response => response.json())
+        ]);
 
-    fetch('Json/tv.json')
-        .then(response => response.json())
-        .then(data => {
-            shows = data;
-            initShowList();
-        })
-        .catch(error => console.error('Error loading shows:', error));
+        // Combine all movie lists into one
+        movies = [...halloweenMovies, ...generalMovies];
+        initMovieList();
+
+        // Load TV shows with updated path
+        const showsResponse = await fetch('Json/tv/general_tv.json');
+        shows = await showsResponse.json();
+        initShowList();
+    } catch (error) {
+        console.error('Error loading data:', error);
+    }
 }
 
 // Fisher-Yates shuffle to randomize arrays
@@ -86,46 +89,50 @@ function displayRandomMedia(type) {
 
     if (type === 'movie') {
         const randomMovie = getNextMovie();
+        // Extract the base title by removing the IMDb rating
+        const baseTitle = randomMovie.title.split(' - IMDb')[0];
+        
         newContent.innerHTML = `
             <h2>${randomMovie.title}</h2>
-            <img src="${randomMovie.image}" alt="${randomMovie.title}" style="max-width: 40%;" class="clickable-image">
+            <img src="${randomMovie.image}" alt="${baseTitle}" style="max-width: 40%;" class="clickable-image">
             <p>${randomMovie.description}</p>
             <button class="view-button">View Where to Watch</button>
         `;
         
         // Add click handlers after creating the elements
-        setTimeout(() => {
-            const image = newContent.querySelector('.clickable-image');
-            const viewButton = newContent.querySelector('.view-button');
-            const searchHandler = () => {
-                const searchQuery = `where to watch ${randomMovie.title}`;
-                window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
-            };
-            
-            image.addEventListener('click', searchHandler);
-            viewButton.addEventListener('click', searchHandler);
-        }, 0);
+        const image = newContent.querySelector('.clickable-image');
+        const viewButton = newContent.querySelector('.view-button');
+        const searchHandler = () => {
+            const searchQuery = `where to watch ${baseTitle}`;
+            window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
+        };
+        
+        image.addEventListener('click', searchHandler);
+        viewButton.addEventListener('click', searchHandler);
     } else if (type === 'show') {
         const randomTVShow = getNextShow();
+        // Extract the base title by removing the IMDb rating
+        let baseTitle = randomTVShow.title.split(' - IMDb')[0];
+        // Extract just the first year for TV shows (e.g., "Show Name (2014)" instead of "Show Name (2014-2020)")
+        baseTitle = baseTitle.replace(/\(\d{4}[-–]\d{4}\)/, match => `(${match.slice(1,5)})`);
+        
         newContent.innerHTML = `
             <h2>${randomTVShow.title}</h2>
-            <img src="${randomTVShow.image}" alt="${randomTVShow.title}" style="max-width: 40%;" class="clickable-image">
+            <img src="${randomTVShow.image}" alt="${baseTitle}" style="max-width: 40%;" class="clickable-image">
             <p>${randomTVShow.description}</p>
             <button class="view-button">View Where to Watch</button>
         `;
         
         // Add click handlers after creating the elements
-        setTimeout(() => {
-            const image = newContent.querySelector('.clickable-image');
-            const viewButton = newContent.querySelector('.view-button');
-            const searchHandler = () => {
-                const searchQuery = `where to watch ${randomTVShow.title}`;
-                window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
-            };
-            
-            image.addEventListener('click', searchHandler);
-            viewButton.addEventListener('click', searchHandler);
-        }, 0);
+        const image = newContent.querySelector('.clickable-image');
+        const viewButton = newContent.querySelector('.view-button');
+        const searchHandler = () => {
+            const searchQuery = `where to watch ${baseTitle}`;
+            window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
+        };
+        
+        image.addEventListener('click', searchHandler);
+        viewButton.addEventListener('click', searchHandler);
     }
     contentContainer.appendChild(newContent);
 }

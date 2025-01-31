@@ -1,6 +1,6 @@
-# 🎬 [MoviesNoir](https://bit.ly/4fcX3qv) Random Movie Generator 🎥
+# 🎬 [MoviesNoir]((https://moviesnoir.vercel.app/)) Random Movie Generator 🎥
 
-## 🌟 About [MoviesNoir](https://bit.ly/4fcX3qv) 🌟
+## 🌟 About [MoviesNoir]((https://moviesnoir.vercel.app/)) 🌟
 
 Welcome to **MovieNoir**! We're an online platform dedicated to celebrating and promoting black culture through a curated collection of movies and TV shows. Our goal is to highlight diverse narratives and perspectives within the black community.
 
@@ -11,6 +11,7 @@ The **Random Movie Generator** is a feature developed for MovieNoir to help user
 ## 📂 Repository Contents 📂
 
 This repository includes the source code and all necessary resources for the Random Movie Generator. 
+The repo for the actually website is [here](https://github.com/ad-archer/MoviesNoir)
 
 ## ⚙️ Usage ⚙️
 
@@ -20,11 +21,13 @@ To integrate or modify the Random Movie Generator for another platform or contri
 
 We welcome your contributions to enhance the Random Movie Generator! Follow these steps to get involved:
 
+Note: Movies and Tv shows are stored in the Json folder. Feel free to scrape more movies and tv shows using the themoviedb.org api, just make sure to store the data in the Json folder since this is a front end project for now. 
+
 1. **🍴 Fork the Repository**: Click the “Fork” button at the top-right of this page to create your personal copy.
 
 2. **🔄 Clone Your Fork**: Clone your forked repository to your local machine:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/MoviesNoir.git
+   git clone https://github.com/ad-archer/MoviesNoir-Movie-Generator.git
    ```
 
 3. **🌿 Create a New Branch**: **Do not make changes directly to the `main` branch.** Instead, create a new branch for your changes:
