@@ -65,14 +65,13 @@ function getNextShow() {
 // Display media function
 function displayRandomMedia(type) {
     const contentContainer = document.querySelector('.content-container');
-    const title = document.querySelector('h1'); // Get the title element
+    const title = document.querySelector('h1');
     
     if (!contentContainer) {
         console.error('Content container not found.');
         return;
     }
 
-    // Hide the title
     if (title) {
         title.style.display = 'none';
     }
@@ -89,16 +88,44 @@ function displayRandomMedia(type) {
         const randomMovie = getNextMovie();
         newContent.innerHTML = `
             <h2>${randomMovie.title}</h2>
-            <img src="${randomMovie.image}" alt="${randomMovie.title}" style="max-width: 40%;">
+            <img src="${randomMovie.image}" alt="${randomMovie.title}" style="max-width: 40%;" class="clickable-image">
             <p>${randomMovie.description}</p>
+            <button class="view-button">View Where to Watch</button>
         `;
+        
+        // Add click handlers after creating the elements
+        setTimeout(() => {
+            const image = newContent.querySelector('.clickable-image');
+            const viewButton = newContent.querySelector('.view-button');
+            const searchHandler = () => {
+                const searchQuery = `where to watch ${randomMovie.title}`;
+                window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
+            };
+            
+            image.addEventListener('click', searchHandler);
+            viewButton.addEventListener('click', searchHandler);
+        }, 0);
     } else if (type === 'show') {
         const randomTVShow = getNextShow();
         newContent.innerHTML = `
             <h2>${randomTVShow.title}</h2>
-            <img src="${randomTVShow.image}" alt="${randomTVShow.title}" style="max-width: 40%;">
+            <img src="${randomTVShow.image}" alt="${randomTVShow.title}" style="max-width: 40%;" class="clickable-image">
             <p>${randomTVShow.description}</p>
+            <button class="view-button">View Where to Watch</button>
         `;
+        
+        // Add click handlers after creating the elements
+        setTimeout(() => {
+            const image = newContent.querySelector('.clickable-image');
+            const viewButton = newContent.querySelector('.view-button');
+            const searchHandler = () => {
+                const searchQuery = `where to watch ${randomTVShow.title}`;
+                window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, '_blank');
+            };
+            
+            image.addEventListener('click', searchHandler);
+            viewButton.addEventListener('click', searchHandler);
+        }, 0);
     }
     contentContainer.appendChild(newContent);
 }
