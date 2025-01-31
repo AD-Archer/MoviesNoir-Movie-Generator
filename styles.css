@@ -68,6 +68,40 @@ body {
     margin: 10px 0; /* Space above and below the image */
 }
 
+.clickable-image {
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.clickable-image:hover {
+    transform: scale(1.02);
+}
+
+.view-button {
+    background-color: var(--accent-color);
+    color: #333;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.view-button:hover {
+    background-color: #e0d5c8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Add responsive design for smaller screens */
 @media (max-width: 600px) {
     .button {
@@ -86,5 +120,10 @@ body {
     .content-container img {
         max-width: 100%; /* Allow images to take full width of smaller screens */
         aspect-ratio: auto; /* Adjust aspect ratio for flexibility */
+    }
+
+    .view-button {
+        font-size: 16px;
+        padding: 10px 20px;
     }
 }
