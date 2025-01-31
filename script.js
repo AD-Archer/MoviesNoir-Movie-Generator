@@ -7,22 +7,25 @@ let shuffledShows = [];
 let clickCount = 0; // Initialize clickCount
 
 // Fetch JSON data
-function loadData() {
-    fetch('Json/movies.json')
-        .then(response => response.json())
-        .then(data => {
-            movies = data;
-            initMovieList();
-        })
-        .catch(error => console.error('Error loading movies:', error));
+async function loadData() {
+    try {
+        // Fetch all movie lists with updated paths
+        const [halloweenMovies, generalMovies] = await Promise.all([
+            fetch('Json/movies/halloween_movies.json').then(response => response.json()),
+            fetch('Json/movies/general_movies.json').then(response => response.json())
+        ]);
 
-    fetch('Json/tv.json')
-        .then(response => response.json())
-        .then(data => {
-            shows = data;
-            initShowList();
-        })
-        .catch(error => console.error('Error loading shows:', error));
+        // Combine all movie lists into one
+        movies = [...halloweenMovies, ...generalMovies];
+        initMovieList();
+
+        // Load TV shows with updated path
+        const showsResponse = await fetch('Json/tv/general_tv.json');
+        shows = await showsResponse.json();
+        initShowList();
+    } catch (error) {
+        console.error('Error loading data:', error);
+    }
 }
 
 // Fisher-Yates shuffle to randomize arrays
