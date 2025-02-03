@@ -1,0 +1,457 @@
+[
+  {
+    "title": "The Nat King Cole Show (1956–1957) - IMDb: 7.8",
+    "image": "https://image.tmdb.org/t/p/w500/lf2BRqj6MqnUYjr2mpN0PNTXrpH.jpg",
+    "description": "A variety show hosted by Nat King Cole, the first of its kind hosted by a Black performer. (TV-G)"
+  },
+  {
+    "title": "Amos 'n' Andy (1951–1953) - IMDb: 6.0",
+    "image": "https://image.tmdb.org/t/p/w500/pn33lNyficErWao8LlHxFvVgPxr.jpg",
+    "description": "A controversial sitcom about two Black men navigating life in Harlem, known for its racial stereotypes. (TV-G)"
+  },
+  {
+    "title": "The Richard Pryor Show (1977) - IMDb: 7.5",
+    "image": "https://image.tmdb.org/t/p/w500/2IBy0o8vXJMC6B9udLVLkrIvlUB.jpg",
+    "description": "A short-lived variety show hosted by Richard Pryor, known for its bold and controversial humor. (TV-MA)"
+  },
+  {
+    "title": "The New Bill Cosby Show (1972–1973) - IMDb: 6.5",
+    "image": "https://image.tmdb.org/t/p/w500/mCJgmCdMZRArcP3pOg6cZ6OpxpV.jpg",
+    "description": "A variety show hosted by Bill Cosby, featuring comedy sketches and musical performances. (TV-G)"
+  },
+  {
+    "title": "The Wire (2002–2008) - IMDb: 9.3",
+    "image": "https://image.tmdb.org/t/p/original/nRaqqDDnIFFjJfWEK0yMlZ3FXc6.jpg",
+    "description": "A gritty crime drama set in Baltimore, Maryland, exploring the interconnected lives of law enforcement, drug dealers, and residents. (TV-MA)"
+  },
+  {
+    "title": "Atlanta (2016– ) - IMDb: 8.6",
+    "image": "https://image.tmdb.org/t/p/w500/pEj6EyG0RiLup2lWVnhmBYya5AA.jpg",
+    "description": "Follows the lives of two cousins navigating the Atlanta rap scene while addressing social and cultural issues with a unique blend of humor and drama. (TV-MA)"
+  },
+  {
+    "title": "Black-ish (2014– ) - IMDb: 7.1",
+    "image": "https://image.tmdb.org/t/p/w500/ga1zJ6UejPIfyL8BA22pK6dqsC8.jpg",
+    "description": "A comedic series that tackles contemporary African-American family life, with a focus on cultural identity, race, and social issues. (TV-PG)"
+  },
+  {
+    "title": "Insecure (2016– ) - IMDb: 7.8",
+    "image": "https://image.tmdb.org/t/p/w500/sGMwPIE6m9QI3LzCRXnZG8opZtB.jpg",
+    "description": "Chronicles the friendship and experiences of two Black women as they navigate love, work, and life in Los Angeles. (TV-MA)"
+  },
+  {
+    "title": "The Fresh Prince of Bel-Air (1990–1996) - IMDb: 7.9",
+    "image": "https://image.tmdb.org/t/p/w500/fJXzwxCVr2TEkhhKRKcih9o5DYK.jpg",
+    "description": "Will Smith, a West Philadelphia teenager, moves to the affluent neighborhood of Bel-Air, California, to live with his wealthy relatives. (TV-PG)"
+  },
+  {
+    "title": "Power (2014–2020) - IMDb: 8.1",
+    "image": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
+    "description": "Explores the world of a wealthy New York City nightclub owner involved in a dangerous and complex life of crime. (TV-MA)"
+  },
+  {
+    "title": "Luke Cage (2016–2018) - IMDb: 7.3",
+    "image": "https://image.tmdb.org/t/p/w500/6R62oGGufhsf6DiMknCi047N0b7.jpg",
+    "description": "Marvel's superhero series follows Luke Cage, a bulletproof Harlem vigilante, as he battles crime and corruption. (TV-MA)"
+  },
+  {
+    "title": "The Cosby Show (1984–1992) - IMDb: 7.3",
+    "image": "https://image.tmdb.org/t/p/w500/dc6sR5FWN4uX8fZENq2UTsrSg3x.jpg",
+    "description": "A classic sitcom depicting the daily lives and humorous adventures of the Huxtable family, led by patriarch Dr. Heathcliff Huxtable. (TV-G)"
+  },
+  {
+    "title": "How to Get Away with Murder (2014–2020) - IMDb: 8.1",
+    "image": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
+    "description": "A legal thriller that follows law professor Annalise Keating and her students as they become entangled in murder mysteries. (TV-14)"
+  },
+  {
+    "title": "Dear White People (2017–2021) - IMDb: 6.2",
+    "image": "https://image.tmdb.org/t/p/w500/thHk9AncE8g2Hsb1iK1xHnlq23j.jpg",
+    "description": "Examines race relations at a predominantly white Ivy League college through the experiences of several Black students. (TV-MA)"
+  },
+  {
+    "title": "Empire (2015–2020) - IMDb: 6.8",
+    "image": "https://image.tmdb.org/t/p/w500/gTrzYR6gWMhQ8yINW9JCLeoJHvf.jpg",
+    "description": "A family drama centered around a hip-hop music and entertainment empire, focusing on the Lyon family's power struggles. (TV-14)"
+  },
+  {
+    "title": "Martin (1992–1997) - IMDb: 7.4",
+    "image": "https://image.tmdb.org/t/p/original/inQQEpHiaSy8BEd9XEFF2W39vO0.jpg",
+    "description": "A sitcom showcasing the comedic misadventures of Martin Payne and his friends in Detroit. (TV-PG)"
+  },
+  {
+    "title": "A Different World (1987–1993) - IMDb: 6.8",
+    "image": "https://image.tmdb.org/t/p/w500/v7fuifcJjcqQxAsOjPviupcmFIZ.jpg",
+    "description": "A spin-off of The Cosby Show, it follows students at the fictional HBCU, Hillman College. (TV-PG)"
+  },
+  {
+    "title": "Queen Sugar (2016– ) - IMDb: 7.5",
+    "image": "https://image.tmdb.org/t/p/w500/v5FtHPzooqBHsjEV7KAmQhFvd7w.jpg",
+    "description": "Chronicles the lives of the Bordelon siblings as they inherit their father's sugarcane farm in Louisiana. (TV-14)"
+  },
+  {
+    "title": "Grown-ish (2018– ) - IMDb: 6.4",
+    "image": "https://image.tmdb.org/t/p/w500/nq09OaG43ZESp8uwdkFEBC7iFbk.jpg",
+    "description": "A spin-off of Black-ish, it follows the Johnson family's eldest daughter, Zoey, as she navigates college life. (TV-14)"
+  },
+  {
+    "title": "The Jeffersons (1975–1985) - IMDb: 7.5",
+    "image": "https://image.tmdb.org/t/p/original/wOuW8GYmZxmfloJ8aMolgE6TVOb.jpg",
+    "description": "A classic sitcom that follows George and Weezy Jefferson as they move up to the Upper East Side of New York City. (TV-PG)"
+  },
+  {
+    "title": "Orange Is the New Black (2013–2019) - IMDb: 8.1",
+    "image": "https://image.tmdb.org/t/p/w500/ekaa7YjGPTkFLcPhwWXTnARuCEU.jpg",
+    "description": "Explores the lives of female inmates at a minimum-security federal prison. (TV-MA)"
+  },
+  {
+    "title": "Living Single (1993–1998) - IMDb: 7.2",
+    "image": "https://image.tmdb.org/t/p/w500/mgttYgspalxaLVrjJ9rxzDG9owO.jpg",
+    "description": "Follows the lives and friendships of four single Black women living in a Brooklyn brownstone. (TV-PG)"
+  },
+  {
+    "title": "Sister, Sister (1994–1999) - IMDb: 6.3",
+    "image": "https://image.tmdb.org/t/p/w500/fzJHEbfgRM5uJaon5AVxwJxFMSF.jpg",
+    "description": "Twin sisters Tia and Tamera reunite and discover each other after being separated at birth. (TV-G)"
+  },
+  {
+    "title": "Snowfall (2017– ) - IMDb: 8.2",
+    "image": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
+    "description": "Dives into the rise of the crack cocaine epidemic in 1980s Los Angeles and its impact on the city. (TV-MA)"
+  },
+  {
+    "title": "Good Times (1974–1979) - IMDb: 7.4",
+    "image": "https://image.tmdb.org/t/p/w500/zZlaGU4RJMhTKFxmQ6RAEYNjM0l.jpg",
+    "description": "A sitcom focusing on the struggles and triumphs of a Black family living in a Chicago housing project. (TV-PG)"
+  },
+  {
+    "title": "The Boondocks (2005–2014) - IMDb: 8.4",
+    "image": "https://image.tmdb.org/t/p/w500/vAvT2RXjOpgH0COriRm9riPqA0m.jpg",
+    "description": "An animated series following the Freeman family as they navigate life in a predominantly white suburb, blending satire and social commentary. (TV-MA)"
+  },
+  {
+    "title": "Everybody Hates Chris (2005–2009) - IMDb: 7.8",
+    "image": "https://image.tmdb.org/t/p/w500/3FjakKDEuaO8FpR1qJctV6njqYy.jpg",
+    "description": "A semi-autobiographical sitcom inspired by Chris Rock's childhood, focusing on his struggles growing up in Brooklyn. (TV-PG)"
+  },
+  {
+    "title": "Girlfriends (2000–2008) - IMDb: 7.3",
+    "image": "https://image.tmdb.org/t/p/w500/buFnsyWEg4pPR7dco5Vbsm6HCIY.jpg",
+    "description": "Follows the lives of four Black women in Los Angeles as they navigate careers, relationships, and friendships. (TV-14)"
+  },
+  {
+    "title": "The Bernie Mac Show (2001–2006) - IMDb: 7.2",
+    "image": "https://image.tmdb.org/t/p/w500/auTnAsA5USO1901qti1mxbUIVoE.jpg",
+    "description": "A sitcom about comedian Bernie Mac raising his sister's three children, blending humor and heartfelt moments. (TV-PG)"
+  },
+  {
+    "title": "Moesha (1996–2001) - IMDb: 6.7",
+    "image": "https://image.tmdb.org/t/p/w500/6I3VCk8GCscaPM3aKOTJlzIaqhc.jpg",
+    "description": "A coming-of-age series about a Black teenager navigating high school, family, and relationships in Los Angeles. (TV-PG)"
+  },
+  {
+    "title": "The Parkers (1999–2004) - IMDb: 6.4",
+    "image": "https://image.tmdb.org/t/p/w500/vV2wJKLoM3VnHUkNoRHMaLc968c.jpg",
+    "description": "A spin-off of Moesha, focusing on mother-daughter duo Nikki and Kim Parker as they attend the same college. (TV-PG)"
+  },
+  {
+    "title": "All of Us (2003–2007) - IMDb: 6.1",
+    "image": "https://image.tmdb.org/t/p/w500/fQKE9RE2U0EWiFT8f3FVaowokyk.jpg",
+    "description": "A sitcom inspired by Will Smith's life, following a blended family navigating co-parenting and relationships. (TV-PG)"
+  },
+  {
+    "title": "The Game (2006–2015) - IMDb: 6.8",
+    "image": "https://image.tmdb.org/t/p/w500/zmvRaCRcmi6lsriYxZmAR6uWHPS.jpg",
+    "description": "A dramedy about the lives of professional football players and their significant others, exploring love, fame, and betrayal. (TV-14)"
+  },
+  {
+    "title": "Being Mary Jane (2013–2019) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/eQOxf7SK3Nexi5WxDiKQrBa6oPV.jpg",
+    "description": "A drama series following TV news anchor Mary Jane Paul as she balances her career, family, and love life. (TV-MA)"
+  },
+  {
+    "title": "The Chi (2018– ) - IMDb: 7.8",
+    "image": "https://image.tmdb.org/t/p/w500/niD8X5pEXpmRUDhSPdDOgI3Gw5Q.jpg",
+    "description": "A drama series exploring the interconnected lives of residents in a South Side Chicago neighborhood. (TV-MA)"
+  },
+  {
+    "title": "Pose (2018–2021) - IMDb: 8.6",
+    "image": "https://image.tmdb.org/t/p/w500/5f23i30nFJz0nrd3DGheOCqXa2P.jpg",
+    "description": "A groundbreaking series about New York City's ballroom culture in the 1980s and 1990s, featuring LGBTQ+ characters of color. (TV-MA)"
+  },
+  {
+    "title": "Lovecraft Country (2020) - IMDb: 7.1",
+    "image": "https://image.tmdb.org/t/p/w500/fz7bdjxPColvEWCGr5Kiclzc86d.jpg",
+    "description": "A genre-bending series blending horror, fantasy, and historical drama as a Black family confronts racism and supernatural forces in 1950s America. (TV-MA)"
+  },
+  {
+    "title": "The Underground Railroad (2021) - IMDb: 7.4",
+    "image": "https://image.tmdb.org/t/p/w500/CrrTqw7LHafnbdH9UcK60aOZSm.jpg",
+    "description": "A historical drama based on Colson Whitehead's novel, reimagining the Underground Railroad as an actual train system. (TV-MA)"
+  },
+  {
+    "title": "Raising Dion (2019–2022) - IMDb: 7.1",
+    "image": "https://image.tmdb.org/t/p/w500/nydKXBiLn4vpL1d5o1utbPKYdii.jpg",
+    "description": "A sci-fi series about a single mother raising her son, who develops superpowers, while uncovering the truth about his father's death. (TV-PG)"
+  },
+  {
+    "title": "Black Lightning (2018–2021) - IMDb: 6.2",
+    "image": "https://image.tmdb.org/t/p/w500/h1xbvvO6oqchfLe6xh0yLNnQxeM.jpg",
+    "description": "A superhero series about a retired vigilante who returns to fight crime and protect his community, while balancing family life. (TV-14)"
+  },
+  {
+    "title": "Run the World (2021– ) - IMDb: 6.7",
+    "image": "https://image.tmdb.org/t/p/w500/bsMOr1rfG0Vk5sneiWQVegYHfSv.jpg",
+    "description": "A comedy-drama following four Black women in Harlem as they navigate careers, relationships, and friendships. (TV-MA)"
+  },
+  {
+    "title": "The Last O.G. (2018–2021) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/4jJ4TfnhA6ph3NWic50bsF9Rwer.jpg",
+    "description": "A comedy series about an ex-con adjusting to life after prison, discovering his ex-girlfriend is now married and raising his twins. (TV-14)"
+  },
+  {
+    "title": "Twenties (2020– ) - IMDb: 6.3",
+    "image": "https://image.tmdb.org/t/p/w500/1OdmKUouR6xCTfoDrqFNqKyiWQP.jpg",
+    "description": "A comedy-drama about a queer Black woman and her friends navigating life, love, and careers in Los Angeles. (TV-MA)"
+  },
+  {
+    "title": "Cherish the Day (2020– ) - IMDb: 6.8",
+    "image": "https://image.tmdb.org/t/p/w500/ws5GlJcfyXSYoxz1FhSgO5FaAzq.jpg",
+    "description": "An anthology series exploring the evolution of a romantic relationship over several years, one day at a time. (TV-14)"
+  },
+  {
+    "title": "Swagger (2021– ) - IMDb: 7.6",
+    "image": "https://image.tmdb.org/t/p/w500/nASkt8izgpR4toMYgiAnxfjWcE2.jpg",
+    "description": "Inspired by Kevin Durant's life, this series follows a young basketball prodigy navigating the pressures of sports, family, and community. (TV-MA)"
+  },
+  {
+    "title": "Bel-Air (2022– ) - IMDb: 6.3",
+    "image": "https://image.tmdb.org/t/p/w500/j8tbXWXrL15RucA6H4khq87dEXa.jpg",
+    "description": "A dramatic reimagining of The Fresh Prince of Bel-Air, exploring Will's journey from West Philadelphia to Bel-Air. (TV-MA)"
+  },
+  {
+    "title": "Abbott Elementary (2021– ) - IMDb: 8.1",
+    "image": "https://image.tmdb.org/t/p/w500/7bZwZ1of6HCUarYoJDIivzk9h2G.jpg",
+    "description": "A mockumentary-style comedy about a group of dedicated teachers working at an underfunded Philadelphia public school. (TV-PG)"
+  },
+  {
+    "title": "The Wonder Years (2021– ) - IMDb: 7.2",
+    "image": "https://image.tmdb.org/t/p/w500/stTtZ97QiXTvCQFDF6rNfFfFt9K.jpg",
+    "description": "A reboot of the classic series, this time following a Black middle-class family in 1960s Alabama. (TV-PG)"
+  },
+  {
+    "title": "Harlem (2021– ) - IMDb: 6.7",
+    "image": "https://image.tmdb.org/t/p/w500/hQP2zAm5L52vs7fp3JzOI5LZ4uB.jpg",
+    "description": "A comedy series about four Black women navigating life, love, and careers in Harlem. (TV-MA)"
+  },
+  {
+    "title": "Grand Crew (2021– ) - IMDb: 6.5",
+    "image": "https://image.tmdb.org/t/p/w500/qoMva4fTAPsYZOUL3NVSzDfX3vn.jpg",
+    "description": "A comedy about a group of Black friends who bond over wine and life's ups and downs in Los Angeles. (TV-14)"
+  },
+  {
+    "title": "All American (2018– ) - IMDb: 7.7",
+    "image": "https://image.tmdb.org/t/p/w500/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
+    "description": "A sports drama inspired by the life of NFL player Spencer Paysinger, following a high school football player navigating two worlds. (TV-14)"
+  },
+  {
+    "title": "All American: Homecoming (2022– ) - IMDb: 6.7",
+    "image": "https://image.tmdb.org/t/p/w500/97988mOprohvBB61LgdsSdeMGa3.jpg",
+    "description": "A spin-off of All American, focusing on a young tennis player and a baseball prodigy at an HBCU. (TV-14)"
+  },
+  {
+    "title": "The Proud Family (2001–2005, 2022– ) - IMDb: 7.1",
+    "image": "https://image.tmdb.org/t/p/w500/wcfbfActZ9VZ3anFqe3YYNWOHsG.jpg",
+    "description": "An animated series about a Black teenager navigating family, friends, and school, with a reboot exploring modern themes. (TV-G)"
+  },
+  {
+    "title": "Family Reunion (2019–2022) - IMDb: 6.5",
+    "image": "https://image.tmdb.org/t/p/w500/1FOJNlszjqBk5S1CDjnGvFTP2e4.jpg",
+    "description": "A comedy series about a family who moves from Seattle to Georgia to reconnect with their roots. (TV-G)"
+  },
+  {
+    "title": "Woke (2020–2022) - IMDb: 6.7",
+    "image": "https://image.tmdb.org/t/p/w500/tEcADfyR2jsAlYVblK6A9LYi0tW.jpg",
+    "description": "A comedy series about a Black cartoonist who gains the ability to see inanimate objects come to life after a police encounter. (TV-MA)"
+  },
+  {
+    "title": "The Upshaws (2021– ) - IMDb: 6.7",
+    "image": "https://image.tmdb.org/t/p/w500/bgtpwAsKNfqJmgp3zBxuSHMBAaW.jpg",
+    "description": "A sitcom about a working-class Black family in Indiana navigating life's challenges with humor and heart. (TV-14)"
+  },
+  {
+    "title": "Colin in Black & White (2021) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/q1qnSWuSRG8OxRnn7c5We2bwNoQ.jpg",
+    "description": "A biographical drama about Colin Kaepernick's teenage years, exploring his journey to becoming an activist and NFL player. (TV-MA)"
+  },
+  {
+    "title": "The Big Cigar (2023– ) - IMDb: N/A",
+    "image": "https://m.media-amazon.com/images/M/MV5BODRjZGY3MDEtZjViOC00Zjg4LWFmZmQtZjZmZmU5OGZjNmNmXkEyXkFqcGc@._V1_.jpg",
+    "description": "A limited series about Black Panther leader Huey P. Newton's escape to Cuba with the help of a Hollywood producer. (TV-MA)"
+  },
+  {
+    "title": "Genius: MLK/X (2024) - IMDb: N/A",
+    "image": "https://image.tmdb.org/t/p/w500/waCykVbku2Amh0revf535SOnlmm.jpg",
+    "description": "A biographical series exploring the lives and legacies of Martin Luther King Jr. and Malcolm X. (TV-14)"
+  },
+  {
+    "title": "The Best Man: The Final Chapters (2022– ) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/lpInnZep9PfG491qJtZAIbAEF7F.jpg",
+    "description": "A limited series continuation of The Best Man film franchise, following the group of friends as they navigate midlife. (TV-MA)"
+  },
+  {
+    "title": "The Ms. Pat Show (2021– ) - IMDb: 7.2",
+    "image": "https://image.tmdb.org/t/p/w500/sLNldjTfJjVWNE9SuIYiaXJf2Yp.jpg",
+    "description": "A comedy series based on comedian Ms. Pat's life, exploring her journey from a troubled past to a successful stand-up career. (TV-MA)"
+  },
+  {
+    "title": "Unprisoned (2023– ) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/nJxyT4SVRocp6Pd8xZkdyrrBXL4.jpg",
+    "description": "A comedy-drama about a therapist whose life is upended when her father, a former convict, moves in with her. (TV-MA)"
+  },
+  {
+    "title": "Survival of the Thickest (2023– ) - IMDb: 7.1",
+    "image": "https://image.tmdb.org/t/p/w500/sD8RToyFl1oMF3kXgkeSmSsJIpa.jpg",
+    "description": "A comedy series about a plus-sized Black woman rebuilding her life after a breakup, based on Michelle Buteau's memoir. (TV-MA)"
+  },
+  {
+    "title": "The Crossover (2023– ) - IMDb: 7.5",
+    "image": "https://image.tmdb.org/t/p/w500/ahL7MXhqvTul41uRrKaxycJhbUQ.jpg",
+    "description": "A sports drama about twin brothers navigating basketball, family, and adolescence, based on Kwame Alexander's novel. (TV-PG)"
+  },
+  {
+    "title": "Found (2023– ) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/b6Uo0Tkjhqlze7R7DgGmP9Fq4Ce.jpg",
+    "description": "A drama series about a crisis management team that helps find missing persons, led by a Black woman with a dark past. (TV-14)"
+  },
+  {
+    "title": "I'm a Virgo (2023– ) - IMDb: 7.2",
+    "image": "https://image.tmdb.org/t/p/w500/avyEl0afo2u5Q8305Eq27nL5LYu.jpg",
+    "description": "A surreal comedy series about a 13-foot-tall Black man navigating life in Oakland, created by Boots Riley. (TV-MA)"
+  },
+  {
+    "title": "The Other Black Girl (2023– ) - IMDb: 6.8",
+    "image": "https://image.tmdb.org/t/p/w500/zGRSem8r4GsUsva0RWTFiRB3fmO.jpg",
+    "description": "A thriller series about a Black woman working in publishing who uncovers dark secrets when another Black woman joins the team. (TV-MA)"
+  },
+  {
+    "title": "The Spook Who Sat by the Door (2023– ) - IMDb: N/A",
+    "image": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/197/2023/07/25115942/eeudzoliWqs9NOA1lgczGwd3jwU-scaled.jpg",
+    "description": "A modern adaptation of the 1973 film, exploring themes of racial inequality and revolution. (TV-MA)"
+  },
+  {
+    "title": "A Black Lady Sketch Show (2019– ) - IMDb: 7.6",
+    "image": "https://image.tmdb.org/t/p/w500/sf1BjG7dZGqJCSwEt25v2lzjqVr.jpg",
+    "description": "A sketch comedy series created by Robin Thede, featuring a core cast of Black women and celebrity guest stars. (TV-MA)"
+  },
+  {
+    "title": "The Carmichael Show (2015–2017) - IMDb: 7.2",
+    "image": "https://image.tmdb.org/t/p/w500/g0DgyieyTGYrlQvT3xCjItF8TbS.jpg",
+    "description": "A sitcom inspired by comedian Jerrod Carmichael's life, tackling social issues with humor and heart. (TV-14)"
+  },
+  {
+    "title": "She's Gotta Have It (2017–2019) - IMDb: 6.5",
+    "image": "https://image.tmdb.org/t/p/w500/fcbZ94T3eySDCMAlVfe3s69LiDJ.jpg",
+    "description": "Spike Lee's series adaptation of his 1986 film, following artist Nola Darling as she navigates love and independence. (TV-MA)"
+  },
+  {
+    "title": "The Breaks (2017) - IMDb: 6.8",
+    "image": "https://image.tmdb.org/t/p/w500/c6bslYOQ3ZjDWZvWCseZwAscsUN.jpg",
+    "description": "A drama series set in 1990s New York City, exploring the rise of hip-hop music and culture. (TV-MA)"
+  },
+  {
+    "title": "Unsolved: The Murders of Tupac and The Notorious B.I.G. (2018) - IMDb: 7.2",
+    "image": "https://image.tmdb.org/t/p/w500/qWV5jwbQcPsQpLJnzB71gVIp9na.jpg",
+    "description": "A true crime series investigating the unsolved murders of Tupac Shakur and The Notorious B.I.G. (TV-MA)"
+  },
+  {
+    "title": "Wu-Tang: An American Saga (2019–2023) - IMDb: 8.0",
+    "image": "https://image.tmdb.org/t/p/w500/kbZFfquhFg2EOUnKbZedWCs1kWO.jpg",
+    "description": "A biographical drama about the formation and rise of the Wu-Tang Clan in 1990s New York. (TV-MA)"
+  },
+  {
+    "title": "Sacred Lies (2018–2020) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/ecdmiokFSOE5erqqcwDG2iEkIIW.jpg",
+    "description": "A mystery drama following a young woman with no hands who escapes a cult and becomes a suspect in a murder case. (TV-MA)"
+  },
+  {
+    "title": "David Makes Man (2019–2021) - IMDb: 7.5",
+    "image": "https://image.tmdb.org/t/p/w500/a0FZ44UENaQ4aqtCq4zCTjiqe8H.jpg",
+    "description": "A coming-of-age drama about a 14-year-old prodigy navigating life in a low-income housing project. (TV-14)"
+  },
+  {
+    "title": "First Wives Club (2019– ) - IMDb: 6.0",
+    "image": "https://image.tmdb.org/t/p/w500/uPuRZBGvrMBbjweAFZ420T6BRwl.jpg",
+    "description": "A comedy series about three best friends who reunite to navigate life, love, and revenge after divorces. (TV-MA)"
+  },
+  {
+    "title": "Tales (2017– ) - IMDb: 6.5",
+    "image": "https://image.tmdb.org/t/p/w500/23r1202xCi2ojbj61COCsa1KGt6.jpg",
+    "description": "An anthology series featuring Black actors and creators, with each episode telling a unique story. (TV-MA)"
+  },
+  {
+    "title": "The Bobby Brown Story (2018) - IMDb: 7.0",
+    "image": "https://image.tmdb.org/t/p/w500/7l23htagUhA2ZKYgrHovmi6whGh.jpg",
+    "description": "A biographical miniseries about R&B singer Bobby Brown's rise to fame, struggles, and personal life. (TV-14)"
+  },
+  {
+    "title": "The New Edition Story (2017) - IMDb: 8.2",
+    "image": "https://image.tmdb.org/t/p/w500/uFgTXYL16rRcrAuHS74zWIalhXf.jpg",
+    "description": "A biographical miniseries about the rise of the iconic R&B group New Edition. (TV-14)"
+  },
+  {
+    "title": "Greenleaf (2016–2020) - IMDb: 7.7",
+    "image": "https://image.tmdb.org/t/p/w500/dnKwzDle0E7tHnddW9gbFf44GzH.jpg",
+    "description": "A drama series about a powerful family running a megachurch, exploring secrets, scandals, and faith. (TV-14)"
+  },
+  {
+    "title": "Saints & Sinners (2016–2021) - IMDb: 6.3",
+    "image": "https://image.tmdb.org/t/p/w500/dAnMf6cpuq0p0PLEGrX0wCXyS4d.jpg",
+    "description": "A drama series set in a Southern Baptist church, filled with scandal, betrayal, and redemption. (TV-14)"
+  },
+  {
+    "title": "Ambitions (2019) - IMDb: 5.9",
+    "image": "https://image.tmdb.org/t/p/w500/yZR31jvMgGwG4i0Z6Jee2iRUHyI.jpg",
+    "description": "A drama series about a powerful family in Atlanta, exploring love, power, and betrayal. (TV-14)"
+  },
+  {
+    "title": "The Oval (2019– ) - IMDb: 5.3",
+    "image": "https://image.tmdb.org/t/p/w500/b5PTXErp18fzi8e2MQv2HlEiE23.jpg",
+    "description": "A political drama about a fictional First Family, filled with secrets, lies, and scandals. (TV-14)"
+  },
+  {
+    "title": "Ruthless (2020– ) - IMDb: 5.5",
+    "image": "https://tylerperry.com/wp-content/uploads/2020/08/Ruthless-key-art-2-300x460.jpg",
+    "description": "A spin-off of The Oval, focusing on a cult and its members in a small Southern town. (TV-MA)"
+  },
+  {
+    "title": "Delilah (2021) - IMDb: 6.0",
+    "image": "https://image.tmdb.org/t/p/w500/bqq5IEmBUSPjspbxaNQqo5kY9wh.jpg",
+    "description": "A legal drama about a lawyer who leaves her firm to fight for the underprivileged. (TV-14)"
+  },
+  {
+    "title": "Sistas (2019– ) - IMDb: 5.8",
+    "image": "https://image.tmdb.org/t/p/w500/9UtwdSXDkDMvqAdMJsbB8JLlBEH.jpg",
+    "description": "A drama series about a group of single Black women navigating love, careers, and friendships. (TV-14)"
+  },
+  {
+    "title": "Zatima (2022– ) - IMDb: 6.0",
+    "image": "https://image.tmdb.org/t/p/w500/umB3MJQ79ZRvgO9uqpo6bsWl6vk.jpg",
+    "description": "A spin-off of Sistas, focusing on the relationship between Zac and Fatima. (TV-14)"
+  },
+  {
+    "title": "Bruh (2020–2021) - IMDb: 5.8",
+    "image": "https://image.tmdb.org/t/p/w500/awXwj4A63l9PoSlbj9scpEPuAaM.jpg",
+    "description": "A comedy series about four Black men navigating life, love, and friendships in Atlanta. (TV-14)"
+  },
+  {
+    "title": "All the Queen's Men (2021– ) - IMDb: 6.0",
+    "image": "https://image.tmdb.org/t/p/w500/eXswCm8rvJUQbU89ihb0CQVJGpS.jpg",
+    "description": "A drama series about a powerful woman running a male exotic nightclub. (TV-MA)"
+  },
+  {
+    "title": "Double Cross (2021– ) - IMDb: 6.0",
+    "image": "https://image.tmdb.org/t/p/w500/g2CDcltzgWVrF5NlaDfAsAYlUHe.jpg",
+    "description": "A crime drama about a detective who goes undercover to infiltrate a dangerous criminal organization. (TV-14)"
+  }
+]

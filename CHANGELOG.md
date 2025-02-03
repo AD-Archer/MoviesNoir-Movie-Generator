@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.0.1] - 2025-02-04
+
+### Added
+- New image scraping functionality with TMDB API integration
+- Tons of new movies and tv shows
+- Python script to scrape images from TMDB for tv shows
+
+
 ## [1.0.0] - 2024-03-19
 
 ### Added

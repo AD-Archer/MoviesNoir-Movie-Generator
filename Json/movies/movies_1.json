@@ -1,19 +1,11 @@
 [
-  {
-    "title": "This Christmas (2007) - IMDb: 6.3/10",
-    "image": "https://image.tmdb.org/t/p/w500/dBuLAw4mRlO83LPA2s4zOlVesUe.jpg",
-    "description": "A chaotic family reunion in LA brings sibling rivalries, secrets, and romance to light during the holidays. (PG-13)"
-  },
+  
   {
     "title": "The Preacher's Wife (1996) - IMDb: 5.8/10",
     "image": "https://image.tmdb.org/t/p/w500/z1mU4g9poAgoDQRNLcfNdj3iiMs.jpg",
     "description": "Denzel Washington stars as an angel helping a struggling pastor (Courtney B. Vance) and his wife (Whitney Houston) rediscover faith and love. (PG)"
   },
-  {
-    "title": "Almost Christmas (2016) - IMDb: 6.1/10",
-    "image": "https://image.tmdb.org/t/p/w500/1ryK5hfzd8j3eaQVBiRBVHvHLyp.jpg",
-    "description": "A dysfunctional family gathers for their first Christmas after losing their matriarch, blending humor and healing. (PG-13)"
-  },
+  
   {
     "title": "Last Holiday (2006) - IMDb: 6.8/10",
     "image": "https://image.tmdb.org/t/p/w500/hRNZszPHjIpYGlrMN3o4f6f6cVd.jpg",
@@ -24,76 +16,7 @@
     "image": "https://image.tmdb.org/t/p/w500/yNZjU6q0mSvRTtc2ge1Jhj03URx.jpg",
     "description": "Tyler Perry\u2019s Madea brings chaos to a rural town\u2019s holiday festivities while teaching lessons about family. (PG-13)"
   },
-  {
-    "title": "Christmas on the Square (2020) - IMDb: 5.1/10",
-    "image": "https://image.tmdb.org/t/p/w500/2fmnCR1UpojTl5FRBu7OzZTibA4.jpg",
-    "description": "Dolly Parton and Christine Baranski star in this musical about a greedy woman who rediscovers kindness with angelic help. (TV-PG)"
-  },
-  {
-    "title": "The Best Man Holiday (2013) - IMDb: 6.5/10",
-    "image": "https://image.tmdb.org/t/p/w500/i4ecMHJQpclIEr4mh5uzjWr38GC.jpg",
-    "description": "College friends reunite for a Christmas weekend filled with old flames, betrayals, and emotional revelations. (R)"
-  },
-  {
-    "title": "Holiday Heart (2000) - IMDb: 6.9/10",
-    "image": "https://image.tmdb.org/t/p/w500/rAh8a5dSYMBlmFiuYSo7O1ywJnE.jpg",
-    "description": "Ving Rhames stars as a drag queen who shelters a recovering addict and her daughter during the holidays. (TV-PG)"
-  },
-  {
-    "title": "A Snowy Day in Oakland (2023) - IMDb: 4.9/10",
-    "image": "https://image.tmdb.org/t/p/w500/gAUdXPjuX1X4lG3ep0ZVUPWZTWP.jpg",
-    "description": "A psychologist reconnects with her roots and finds love while opening a practice in a quirky Oakland neighborhood. (PG-13)"
-  },
-  {
-    "title": "A Christmas in Tennessee (2022) - IMDb: 5.6/10",
-    "image": "https://image.tmdb.org/t/p/w500/sUQMRLWeM2QEnvZQjwqzO5Ms1kc.jpg",
-    "description": "A chef returns to her hometown to save a historic inn, sparking romance with a single dad during the holidays. (TV-G)"
-  },
-  {
-    "title": "A Christmas Dance Reunion (2021) - IMDb: 5.6/10",
-    "image": "https://image.tmdb.org/t/p/w500/oKycEWDtxpGYqwHEIE8lRWCoiLd.jpg",
-    "description": "Former dance partners reunite at a holiday lodge, rekindling their passion for dance\u2014and each other. (TV-G)"
-  },
-  {
-    "title": "A Nashville Christmas Carol (2020) - IMDb: 5.7/10",
-    "image": "https://image.tmdb.org/t/p/w500/jsEfHhRudgiZfjdgaDUP80IYe9X.jpg",
-    "description": "A modern twist on Dickens\u2019 classic, starring a selfish songwriter visited by ghosts to rediscover holiday spirit. (TV-G)"
-  },
-  {
-    "title": "Jingle Jangle: A Christmas Journey (2020) - IMDb: 6.6/10",
-    "image": "https://image.tmdb.org/t/p/w500/5RbyHIVydD3Krmec1LlUV7rRjet.jpg",
-    "description": "A magical musical about a toymaker (Forest Whitaker) and his granddaughter reigniting wonder in a steampunk-inspired world. (PG)"
-  },
-  {
-    "title": "A Holiday in Harlem (2023) - IMDb: 5.8/10",
-    "image": "https://image.tmdb.org/t/p/w500/3yvhFmOiVSDvBRwe0dyaw7aoWWN.jpg",
-    "description": "A music manager returns home to Harlem, falling for a community organizer while saving a historic theater. (TV-PG)"
-  },
-  {
-    "title": "Dear Santa (2020) - IMDb: 6.1/10",
-    "image": "https://image.tmdb.org/t/p/w500/nAjWEE2edtMuGKfFZHgwr8M0MMn.jpg",
-    "description": "A spoiled heiress finds purpose by answering children\u2019s letters to Santa, leading to unexpected love. (TV-G)"
-  },
-  {
-    "title": "A Christmas Princess (2019) - IMDb: 5.3/10",
-    "image": "https://image.tmdb.org/t/p/w500/koZWBr0r5QyqotclA8IRHpYMy3N.jpg",
-    "description": "A Brooklyn waitress discovers royal roots and navigates a whirlwind romance during a snowy European Christmas. (TV-G)"
-  },
-  {
-    "title": "The Holiday Calendar (2018) - IMDb: 5.8/10",
-    "image": "https://image.tmdb.org/t/p/w500/hiCeUExxUTGbU6FXORLf673uwvK.jpg",
-    "description": "A magical advent calendar predicts the future for a photographer (Kat Graham) torn between love and ambition. (TV-PG)"
-  },
-  {
-    "title": "A Christmas Wish (2023) - IMDb: 5.5/10",
-    "image": "https://image.tmdb.org/t/p/w500/ozBX0u5caaJFli9AssqJmARb5R.jpg",
-    "description": "A struggling single mom wins a lottery ticket but learns true wealth lies in family and community. (TV-PG)"
-  },
-  {
-    "title": "A Christmas Blessing (2023) - IMDb: 5.9/10",
-    "image": "https://image.tmdb.org/t/p/w500/gPq4EA8jFajMS69FU1Zkaav3yXB.jpg",
-    "description": "A doctor returns to her hometown, clashing with a charming contractor while reviving a holiday tradition. (TV-G)"
-  },
+  
   {
     "title": "A New Orleans Christmas (2023) - IMDb: 5.7/10",
     "image": "https://image.tmdb.org/t/p/w500/jGFcaPyEMK25fIs5BSAHrKsi2Q8.jpg",
@@ -158,11 +81,6 @@
     "title": "Jumping the Broom (2011) - IMDb: 5.9/10",
     "image": "https://image.tmdb.org/t/p/w500/60OXQUsWfAdSimqwAAJ5EvBxTre.jpg",
     "description": "A culture-clash comedy about two families from different socioeconomic backgrounds colliding at a Martha's Vineyard wedding. (PG-13)"
-  },
-  {
-    "title": "Beyond the Lights (2014) - IMDb: 7.0/10",
-    "image": "https://image.tmdb.org/t/p/w500/5Di9UXTa2bDec68WOFcZzgB1ot3.jpg",
-    "description": "A romantic drama about a rising pop star and a police officer who help each other escape the pressures of fame and duty. (PG-13)"
   },
   {
     "title": "I Am Not Your Negro (2016) - IMDb: 7.9/10",
