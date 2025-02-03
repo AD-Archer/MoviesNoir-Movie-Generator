@@ -21,7 +21,16 @@ To integrate or modify the Random Movie Generator for another platform or contri
 
 We welcome your contributions to enhance the Random Movie Generator! Follow these steps to get involved:
 
-Note: Movies and Tv shows are stored in the Json folder. Feel free to scrape more movies and tv shows using the themoviedb.org api, just make sure to store the data in the Json folder since this is a front end project for now. 
+Note: Movies and Tv shows are stored in the Json folder. Feel free to scrape more movies and tv shows using the themoviedb.org api, just make sure to store the data in the Json folder since this is a front end project for now.
+
+to add movies/tv shows remember to make them media with black leads or that display black culture.
+then follow this format
+
+{
+   "title":'insert title',
+   "image":'insert image, can he hosted on something like upload thing or an image hosted on IMBD or the movie database. or downloaded into the repo(please do this as a last resort)', 
+   "description":'insert description', 
+} - please remember the comma at the beginning and ending of each block
 
 1. **🍴 Fork the Repository**: Click the “Fork” button at the top-right of this page to create your personal copy.
 

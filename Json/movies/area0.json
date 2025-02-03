@@ -1,0 +1,353 @@
+[
+    {
+      "title": "Black Panther (2018) - IMDb: 7.3/10",
+      "image": "https://m.media-amazon.com/images/I/A1PaCX4oXjL.jpg",
+      "description": "Marvel's superhero film follows T'Challa, the king of Wakanda, as he grapples with the responsibilities of the throne and the challenges to his nation. (PG-13)"
+    },
+    {
+      "title": "Get Out (2017) - IMDb: 7.7/10",
+      "image": "https://i.ebayimg.com/images/g/XgoAAOSwpnBjDKaF/s-l1600.jpg",
+      "description": "A horror-thriller exploring racism and cultural appropriation as a young Black man discovers disturbing secrets during a visit to his white girlfriend's family estate. (R)"
+    },
+    {
+      "title": "Hidden Figures (2016) - IMDb: 7.8/10",
+      "image": "https://m.media-amazon.com/images/I/710stdsMzzL._AC_UF894,1000_QL80_.jpg",
+      "description": "Based on true events, this film highlights the vital contributions of three African-American women mathematicians at NASA during the Space Race. (PG)"
+    },
+    {
+      "title": "Moonlight (2016) - IMDb: 7.4/10",
+      "image": "https://m.media-amazon.com/images/I/91Tu1WACkuL.jpg",
+      "description": "A coming-of-age drama that chronicles the life of a young Black man named Chiron as he grapples with his identity and sexuality. (R)"
+    },
+    {
+      "title": "Django Unchained (2012) - IMDb: 8.4/10",
+      "image": "https://m.media-amazon.com/images/I/61xAjmBc-0L._AC_UF894,1000_QL80_.jpg",
+      "description": "Quentin Tarantino's western follows a freed slave turned bounty hunter seeking to rescue his wife from a brutal plantation owner. (R)"
+    },
+    {
+      "title": "The Help (2011) - IMDb: 8.0/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_.jpg",
+      "description": "Set in 1960s Mississippi, this drama explores the relationships between Black maids and their white employers during the Civil Rights Movement. (PG-13)"
+    },
+    {
+      "title": "Fruitvale Station (2013) - IMDb: 7.5/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDYxODgyOTItYWRjZS00ZTE5LWJkNmMtN2I4YmJjNTYxOWY5XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+      "description": "Based on a true story, this film depicts the last day in the life of Oscar Grant, a young Black man shot by a transit officer in Oakland. (R)"
+    },
+    {
+      "title": "Selma (2014) - IMDb: 7.5/10",
+      "image": "https://amc-theatres-res.cloudinary.com/v1579119708/amc-cdn/production/2/movies/45900/45875/Poster/p_800x1200_Selma_En_030416.jpg",
+      "description": "A historical drama focusing on Dr. Martin Luther King Jr.'s campaign for equal voting rights during the 1965 Selma to Montgomery marches. (PG-13)"
+    },
+    {
+      "title": "12 Years a Slave (2013) - IMDb: 8.1/10",
+      "image": "https://myhotposters.com/cdn/shop/products/HP3031_34e93235-ae75-43e0-a248-5133c24fd5e3_1024x1024.jpg?v=1571445096",
+      "description": "An adaptation of Solomon Northup's memoir, this film tells the harrowing story of a free Black man kidnapped and sold into slavery. (R)"
+    },
+    {
+      "title": "Ray (2004) - IMDb: 7.7/10",
+      "image": "https://i.ebayimg.com/images/g/LiUAAOSwmGNfzUyE/s-l1600.jpg",
+      "description": "A biopic depicting the life and career of legendary musician Ray Charles, exploring his triumphs and struggles. (PG-13)"
+    },
+    {
+      "title": "Malcolm X (1992) - IMDb: 7.7/10",
+      "image": "https://m.media-amazon.com/images/I/91x9FYikBIL._AC_UF894,1000_QL80_.jpg",
+      "description": "Spike Lee directs this biographical film, chronicling the life and evolution of civil rights leader Malcolm X. (PG-13)"
+    },
+    {
+      "title": "The Color Purple (1985) - IMDb: 7.8/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjBkNGE0NGYtYmU5Ny00NjRiLTk5MmYtMWU4NzYxMDE4YWY4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+      "description": "Based on Alice Walker's novel, this film portrays the life of an African-American woman named Celie in the early 20th century. (PG-13)"
+    },
+    {
+      "title": "Coming to America (1988) - IMDb: 7.1/10",
+      "image": "https://image.tmdb.org/t/p/original/os1vUxxiRYNAq21phgH2B3eNX4r.jpg",
+      "description": "Eddie Murphy stars as an African prince who travels to America to find true love and escape his arranged marriage. (R)"
+    },
+    {
+      "title": "Coming 2 America (2021) - IMDb: 5.4/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTMyY2Q2MDctMDFlMS00MWEzLTk1NmEtNDcxNzg1ZGJlNGU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+      "description": "Prince Akeem returns to America when he discovers he has a long-lost son, igniting a new comedic adventure filled with hilarious encounters and cultural clashes. (PG-13)"
+    },
+    {
+      "title": "Do the Right Thing (1989) - IMDb: 7.9/10",
+      "image": "https://i.etsystatic.com/18242346/r/il/144e99/2458211731/il_fullxfull.2458211731_11kj.jpg",
+      "description": "Spike Lee's iconic film explores racial tensions in a Brooklyn neighborhood during a scorching summer day. (R)"
+    },
+    {
+      "title": "Precious (2009) - IMDb: 7.3/10",
+      "image": "https://m.media-amazon.com/images/I/51p4BPTlr4L._AC_UF894,1000_QL80_.jpg",
+      "description": "A powerful drama about an abused and illiterate teenager named Precious who strives for a better life. (R)"
+    },
+    {
+      "title": "A Raisin in the Sun (1961) - IMDb: 8.0/10",
+      "image": "https://d21ehp1kf1k9m9.cloudfront.net/wp-content/uploads/2022/08/22164914/a-raisin-in-the-sun-poster-250x455.jpg",
+      "description": "Adapted from Lorraine Hansberry's play, this film explores the struggles of a Black family in 1950s Chicago. (NR)"
+    },
+    {
+      "title": "The Pursuit of Happiness (2006) - IMDb: 8.0/10",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_.jpg",
+      "description": "Based on a true story, this film follows Chris Gardner's journey from homelessness to a successful career as a stockbroker. (PG-13)"
+    },
+    {
+      "title": "Creed (2015) - IMDb: 7.6/10",
+      "image": "https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2899156/5911624/MOVIB91465__73535.1679565231.jpg?c=2",
+      "description": "A sports drama that follows Adonis Creed, the son of Apollo Creed, as he trains to become a professional boxer under the guidance of Rocky Balboa. (PG-13)"
+    },
+    {
+      "title": "The Butler (2013) - IMDb: 7.2/10",
+      "image": "images/Movies/The Bulter.jpg",
+      "description": "A historical drama about a White House butler who served eight American presidents and witnessed significant moments in American history. (PG-13)"
+    },
+    {
+      "title": "Beloved (1998) - IMDb: 6.0/10",
+      "image": "images/Movies/halloween_update/Beloved.jpg",
+      "description": "In 1873 Ohio, Sethe (Oprah Winfrey) is a mother of three haunted by her horrific slavery past and her desperate... Directed by Jonathan Demme."
+    },
+    
+        {
+          "title": "Candyman (1992) - IMDb: 6.7/10",
+          "image": "images/Movies/halloween_update/candyman.jpg",
+          "description": "A supernatural horror film centered around the legend of Candyman, a vengeful spirit, starring Tony Todd. (R)"
+        },
+        {
+          "title": "Candyman (2021) - IMDb: 6.0/10",
+          "image": "images/Movies/halloween_update/candyman(2021).jpg",
+          "description": "A modern reimagining of the classic Candyman story, featuring Yahya Abdul-Mateen II in the lead role. (R)"
+        },
+        {
+          "title": "His House (2020) - IMDb: 6.5/10",
+          "image": "images/Movies/halloween_update/his house.jpg",
+          "description": "A refugee couple from South Sudan tries to adjust to life in the UK while haunted by a sinister force. (TV-MA)"
+        },
+        {
+          "title": "Tales from the Hood (1995) - IMDb: 6.5/10",
+          "image": "images/Movies/halloween_update/Tales from the hood.jpg",
+          "description": "An anthology horror film that blends supernatural horror with social commentary, directed by Rusty Cundieff. (R)"
+        },
+        {
+          "title": "Tales from the Hood 2 (2018) - IMDb: 4.8/10",
+          "image": "images/Movies/halloween_update/tales from the hood 2.jpg",
+          "description": "The sequel to the 1995 anthology horror film, featuring a new set of stories that explore social issues and supernatural horror. Directed by Darin Scott. (R)"
+        },
+        {
+          "title": "Tales from the Hood 3 (2020) - IMDb: 4.4/10",
+          "image": "images/Movies/halloween_update/tales from the hood 3.jpg",
+          "description": "The third installment in the anthology series, continuing to blend horror with social commentary. Directed by Rusty Cundieff and Darin Scott. (R)"
+        },
+        {
+          "title": "Vampires vs. the Bronx (2020) - IMDb: 5.6/10",
+          "image": "images/Movies/halloween_update/vampires vs the bronx.jpg",
+          "description": "A group of young friends in the Bronx discovers their neighborhood is being overrun by vampires. (PG-13)"
+        },
+        {
+          "title": "Bones (2001) - IMDb: 4.4/10",
+          "image": "images/Movies/halloween_update/bones.jpg",
+          "description": "A murdered gangster, played by Snoop Dogg, returns to wreak supernatural revenge on those who wronged him. (R)"
+        },
+        {
+          "title": "The People Under the Stairs (1991) - IMDb: 6.4/10",
+          "image": "images/Movies/halloween_update/the people under the stairs.jpg",
+          "description": "A young boy becomes trapped inside a house filled with disturbing secrets in this Wes Craven cult classic. (R)"
+        },
+        {
+          "title": "Spell (2020) - IMDb: 5.5/10",
+          "image": "images/Movies/halloween_update/spell.jpg",
+          "description": "A man, played by Omari Hardwick, survives a plane crash only to fall under the control of a sinister hoodoo practitioner. (R)"
+        },
+        {
+          "title": "Bad Hair (2020) - IMDb: 5.6/10",
+          "image": "images/Movies/halloween_update/bad hair.jpg",
+          "description": "A horror satire about a woman in the 1980s whose new weave has a mind of its own. Directed by Justin Simien. (TV-MA)"
+        },
+        {
+          "title": "Us (2019) - IMDb: 6.8/10",
+          "image": "images/Movies/halloween_update/Us 2019.jpg",
+          "description": "A family is confronted by terrifying doppelgängers in Jordan Peele's psychological horror, starring Lupita Nyong'o. (R)"
+        },
+        {
+          "title": "Get Out (2017) - IMDb: 7.8/10",
+          "image": "images/Movies/halloween_update/Get Out.jpg",
+          "description": "A psychological horror film about a Black man uncovering dark secrets at his white girlfriend's family estate. Directed by Jordan Peele. (R)"
+        },
+        {
+          "title": "Ganja & Hess (1973) - IMDb: 6.1/10",
+          "image": "images/Movies/halloween_update/Ganja and Hess.jpg",
+          "description": "A unique blend of vampire horror and Black culture, starring Duane Jones as a man who becomes immortal after an ancient curse. (R)"
+        },
+        {
+          "title": "The House on Skull Mountain (1974) - IMDb: 5.3/10",
+          "image": "images/Movies/halloween_update/the house on skull mountain.jpg",
+          "description": "An eerie horror film about a family haunted by their ancestor's voodoo practices after her death. (PG)"
+        },
+        {
+          "title": "Ma (2019) - IMDb: 5.6/10",
+          "image": "images/Movies/halloween_update/Ma 2019.jpg",
+          "description": "Octavia Spencer stars as a lonely woman who invites teens to party in her basement, but her hospitality takes a sinister turn. (R)"
+        },
+        {
+          "title": "The Transfiguration (2016) - IMDb: 6.1/10",
+          "image": "images/Movies/halloween_update/The transfiguration.jpg",
+          "description": "A psychological horror about a troubled teen with an obsession for vampires, blending coming-of-age themes with dark, haunting visuals. (Not Rated)"
+        },
+        {
+          "title": "J.D.'s Revenge (1976) - IMDb: 6.0/10",
+          "image": "images/Movies/halloween_update/J.D.'s Revenge.jpg",
+          "description": "A man becomes possessed by the vengeful spirit of a 1940s gangster in this Blaxploitation supernatural horror. (R)"
+        },
+        {
+          "title": "Blacula (1972) - IMDb: 5.7/10",
+          "image": "images/Movies/halloween_update/Blacula.jpg",
+          "description": "A Blaxploitation classic about an African prince cursed to live as a vampire, played by William Marshall. (PG)"
+        },
+        {
+          "title": "Scream Blacula Scream (1973) - IMDb: 5.6/10",
+          "image": "images/Movies/halloween_update/Scream Blacula Scream.jpg",
+          "description": "The sequel to Blacula, where the vampire returns to seek revenge after being resurrected by a voodoo priestess. (PG)"
+        },
+        {
+          "title": "Tales From the Crypt Presents Demon Knight (1995) - IMDb: 6.7/10",
+          "image": "images/Movies/halloween_update/Tales from the crypt- Demon Knight.jpg",
+          "description": "Ex-soldier Frank Brayker (William Sadler) is the guardian of an ancient key that can unlock tremendous evil; the sinister but... (R). Directed by Ernest R. Dickerson."
+        },
+        {
+          "title": "Blade (1998) - IMDb: 7.1/10",
+          "image": "images/Movies/halloween_update/Blade.jpg",
+          "description": "A half-mortal, half-immortal is out to avenge his mother's death and rid the world of vampires. Directed by Stephen Norrington."
+        },
+        {
+          "title": "Black Box (2020) - IMDb: 6.2/10",
+          "image": "images/Movies/halloween_update/Black Box 2020.jpg",
+          "description": "After losing his wife and memory in a car accident, a single father undergoes an agonizing experimental treatment that causes... Directed by Emmanuel Osei-Kuffour."
+        },
+        {
+          "title": "Blade II (2002) - IMDb: 6.7/10",
+          "image": "images/Movies/halloween_update/Blade II.jpg",
+          "description": "Exploding from the pages of Marvel Comics comes the thrilling follow-up to the blockbuster 'Blade.' Directed by Guillermo del Toro."
+        },
+        {
+          "title": "Sweetheart (2019) - IMDb: 5.8/10",
+          "image": "images/Movies/halloween_update/sweet heart 2019.jpg",
+          "description": "A shipwreck survivor on an uninhabited island must fend off a malevolent force that surfaces each night. Directed by J.D. Dillard."
+        },
+        {
+          "title": "Def by Temptation (1990) - IMDb: 4.9/10",
+          "image": "images/Movies/halloween_update/Def by Temptation 2019.jpg",
+          "description": "Joel (James Bond III), a quiet divinity student from North Carolina, starts to question his faith. Directed by James Bond III."
+        },
+        {
+          "title": "Vampire in Brooklyn (1995) - IMDb: 4.6/10",
+          "image": "images/Movies/halloween_update/vampires vs the bronx.jpg",
+          "description": "In the wake of her mother's death in a mental institution, detective Rita Veder (Angela Bassett) is assigned to a... Directed by Wes Craven."
+        },
+        {
+          "title": "Beloved (1998) - IMDb: 6.0/10",
+          "image": "images/Movies/halloween_update/Beloved.jpg",
+          "description": "In 1873 Ohio, Sethe (Oprah Winfrey) is a mother of three haunted by her horrific slavery past and her desperate... Directed by Jonathan Demme."
+        },
+        {
+          "title": "The Boy Behind the Door (2020) - IMDb: 6.6/10",
+          "image": "images/Movies/halloween_update/The boy behind the door.jpg",
+          "description": "A night of unimaginable terror awaits twelve-year-old Bobby (Lonnie Chavis) and his best friend... Directed by David Charbonier, Justin Powell."
+        },
+        {
+          "title": "Attack the Block (2011) - IMDb: 6.7/10",
+          "image": "images/Movies/halloween_update/attack the block.jpg",
+          "description": "A teen gang in South London defend their block from an alien invasion. Directed by Joe Cornish."
+        },
+        {
+          "title": "The Purge: Anarchy (2014) - IMDb: 6.4/10",
+          "image": "images/Movies/halloween_update/The purge- anarchy.jpg",
+          "description": "Three groups of people intertwine and are left stranded in the streets on Purge Night, trying to survive the chaos and violence that occurs. Directed by James DeMonaco."
+        },
+        {
+          "title": "28 Days Later (2002) - IMDb: 7.5/10",
+          "image": "images/Movies/halloween_update/28 days later.jpg",
+          "description": "Four weeks after a mysterious, incurable virus spreads throughout the United Kingdom, a handful of survivors try to find sanctuary. Directed by Danny Boyle."
+        },
+        {
+          "title": "Pitch Black (2000) - IMDb: 7.0/10",
+          "image": "images/Movies/halloween_update/pitch black 2000.jpg",
+          "description": "A transport ship crashes and leaves its crew stranded on a desert planet inhabited by bloodthirsty creatures that come out during an eclipse. Directed by David Twohy."
+        },
+        {
+          "title": "The Serpent and the Rainbow (1988) - IMDb: 6.4/10",
+          "image": "images/Movies/halloween_update/the serpent and the rainbow.jpg",
+          "description": "An anthropologist goes to Haiti after hearing rumors about a drug used by black magic practitioners to turn people into zombies. Directed by Wes Craven."
+        },
+        {
+          "title": "Event Horizon (1997) - IMDb: 6.6/10",
+          "image": "images/Movies/halloween_update/Event Horizon.jpg",
+          "description": "A rescue crew is tasked with investigating the mysterious reappearance of a spaceship that had been lost for seven years. Directed by Paul W.S. Anderson."
+        },
+        {
+          "title": "The Invitation (2015) - IMDb: 6.6/10",
+          "image": "images/Movies/halloween_update/The Inviation 2015.jpg",
+          "description": "When a man accepts an invitation to a dinner party hosted by his ex-wife, the unsettling past reopens old wounds and creates new tensions. Directed by Karyn Kusama."
+        },
+        {
+          "title": "Jeepers Creepers 2 (2003) - IMDb: 5.7/10",
+          "image": "images/Movies/halloween_update/Jeepers Creepers 2.jpg",
+          "description": "Set a few days after the original, a championship basketball team's bus is attacked by The Creeper, the winged, flesh-eating terror, on the last day of his 23-day feeding frenzy. Directed by Victor Salva."
+        },
+        {
+          "title": "Isolation (2005) - IMDb: 5.6/10",
+          "image": "images/Movies/halloween_update/Isolation.jpg",
+          "description": "On a remote Irish farm, five people become unwilling participants in an experiment that goes nightmarishly wrong. Directed by Billy O'Brien."
+        },
+        {
+          "title": "It Comes at Night (2017) - IMDb: 6.2/10",
+          "image": "images/Movies/halloween_update/it comes at night.jpg",
+          "description": "Secure within a desolate home as an unnatural threat terrorizes the world, a man has established a tenuous domestic order with his wife and son. Then a desperate young family arrives seeking refuge. Directed by Trey Edward Shults."
+        },
+        {
+          "title": "Fallen (1998) - IMDb: 7.0/10",
+          "image": "images/Movies/halloween_update/Fallen 1998.jpg",
+          "description": "Homicide detective John Hobbes witnesses the execution of serial killer Edgar Reese. Soon after the execution, the killings start again, and they are very similar to Reese's style. Directed by Gregory Hoblit."
+        },
+        {
+          "title": "Tragedy Girls (2017) - IMDb: 6.0/10",
+          "image": "images/Movies/halloween_update/Tragedy Girls.jpg",
+          "description": "A twist on the slasher genre, following two death-obsessed teenage girls who use their online show about real-life tragedies to send their small mid-western town into a frenzy, and cement their legacy as modern horror legends. Directed by Tyler MacIntyre."
+        },
+        {
+          "title": "Predator 2 (1990) - IMDb: 6.3/10",
+          "image": "images/Movies/halloween_update/Predator 2.jpg",
+          "description": "The Predator returns to Earth, this time to stake a claim on the war-torn streets of a dystopian Los Angeles. Directed by Stephen Hopkins."
+        },
+        {
+          "title": "Land of the Dead (2005) - IMDb: 6.2/10",
+          "image": "images/Movies/halloween_update/Land of the dead.jpg",
+          "description": "The living dead have taken over the world, and the last humans live in a walled city to protect themselves as they come to grips with the situation. Directed by George A. Romero."
+        },
+        {
+          "title": "The Girl with All the Gifts (2016) - IMDb: 6.6/10",
+          "image": "images/Movies/halloween_update/the girl with all gifts.jpg",
+          "description": "A scientist and a teacher living in a dystopian future embark on a journey of survival with a special young girl named Melanie. Directed by Colm McCarthy."
+        },
+        {
+          "title": "Switchback (1997) - IMDb: 6.4/10",
+          "image": "images/Movies/halloween_update/switchback.jpg",
+          "description": "An FBI agent tries to catch a serial killer who kidnapped his son. Directed by Jeb Stuart."
+        },
+        {
+          "title": "Alien vs. Predator (2004) - IMDb: 5.7/10",
+          "image": "images/Movies/halloween_update/Alien vs. Predator.jpg",
+          "description": "During an archaeological expedition on Bouvetøya Island in Antarctica, a team of archaeologists and other scientists find themselves caught up in a battle between the two legends. Soon, the team realize that only one species can win. Directed by Paul W.S. Anderson."
+        },
+        {
+          "title": "The Cloverfield Paradox (2018) - IMDb: 5.5/10",
+          "image": "images/Movies/halloween_update/The Cloverfield Paradox.jpg",
+          "description": "Orbiting a planet on the brink of war, scientists test a device to solve an energy crisis, and end up face-to-face with a dark alternate reality. Directed by Julius Onah."
+        },
+        {
+          "title": "Night of the Living Dead (1990) - IMDb: 6.8/10",
+          "image": "images/Movies/halloween_update/Night of the Living Dead.jpg",
+          "description": "When the unburied dead return to life and seek human victims, seven refugees shelter in a house in the Pennsylvanian countryside. Directed by Tom Savini."
+        },
+        {
+          "title": "House on Haunted Hill (1999) - IMDb: 5.9/10",
+          "image": "images/Movies/halloween_update/House on Haunted Hill.jpg",
+          "description": "A wealthy thrill-seeker offers a group of diverse people $1,000,000 to spend the night in a haunted house with a horrifying history. Directed by William Malone."
+        }
+      ]
