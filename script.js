@@ -6,25 +6,87 @@ let shuffledMovies = [];
 let shuffledShows = [];
 let clickCount = 0; // Initialize clickCount
 
-// Fetch JSON data
+// Fetch JSON data from /json/movies and /json/tv
 async function loadData() {
     try {
-        // Fetch all movie lists with updated paths
+        // Cache setup
+        const cacheName = 'media-cache';
+        const cache = await caches.open(cacheName);
+
+        // Function to fetch with cache fallback
+        async function fetchWithCache(url) {
+            try {
+                // Try network first
+                const response = await fetch(url, {
+                    cache: 'no-store' // Force fetch from network
+                });
+                
+                if (response.ok) {
+                    // Update cache with new response
+                    cache.put(url, response.clone());
+                    return response.json();
+                }
+
+                // If network fetch fails, try cache
+                const cachedResponse = await cache.match(url);
+                if (cachedResponse) {
+                    return cachedResponse.json();
+                }
+
+                throw new Error(`Failed to fetch ${url}`);
+            } catch (error) {
+                console.error(`Error fetching ${url}:`, error);
+                return []; // Return empty array on error
+            }
+        }
+
+        // Clear existing cache first
+        await cache.delete(cacheName);
+        
+        // Fetch all numbered movie files
+        const movieFiles = [];
+        for (let i = 1; i <= 3; i++) {
+            const movies = await fetchWithCache(`Json/movies/movies_${i}.json`);
+            if (movies.length > 0) {
+                movieFiles.push(movies);
+            }
+        }
+
+        // Fetch other movie lists
         const [halloweenMovies, generalMovies] = await Promise.all([
-            fetch('Json/movies/halloween_movies.json').then(response => response.json()),
-            fetch('Json/movies/general_movies.json').then(response => response.json())
+            fetchWithCache('Json/movies/halloween_movies.json'),
+            fetchWithCache('Json/movies/general_movies.json')
         ]);
 
-        // Combine all movie lists into one
-        movies = [...halloweenMovies, ...generalMovies];
+        // Combine all movie lists into one, filtering out any null/undefined values
+        movies = [...halloweenMovies, ...generalMovies, ...movieFiles.flat()]
+            .filter(movie => movie && movie.title);
+
+        // Initialize movie list
         initMovieList();
 
-        // Load TV shows with updated path
-        const showsResponse = await fetch('Json/tv/general_tv.json');
-        shows = await showsResponse.json();
+        // Load TV shows from tv_1.json and tv_2.json
+        const tvFiles = [];
+        for (let i = 1; i <= 2; i++) {
+            const tvShows = await fetchWithCache(`Json/tv/tv_${i}.json`);
+            if (tvShows.length > 0) {
+                tvFiles.push(tvShows);
+            }
+        }
+
+        // Combine all TV show lists into one, filtering out any null/undefined values
+        shows = tvFiles.flat().filter(show => show && show.title);
+        
+        // Initialize show list
         initShowList();
+
     } catch (error) {
         console.error('Error loading data:', error);
+        // Initialize with empty arrays if loading fails
+        movies = [];
+        shows = [];
+        initMovieList();
+        initShowList();
     }
 }
 
