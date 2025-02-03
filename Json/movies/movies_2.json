@@ -1,0 +1,502 @@
+[
+  {
+    "title": "Ray (2004) - IMDb: 7.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/tSPC7sO2XYNL9QcMmK88tuUALL5.jpg",
+    "description": "A biopic depicting the life and career of legendary musician Ray Charles, exploring his triumphs and struggles. (PG-13)"
+  },
+  {
+    "title": "Malcolm X (1992) - IMDb: 7.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/o2s9ow0uRRm1BcF3teznk5twd90.jpg",
+    "description": "Spike Lee directs this biographical film, chronicling the life and evolution of civil rights leader Malcolm X. (PG-13)"
+  },
+  {
+    "title": "The Color Purple (1985) - IMDb: 7.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/bjbLXVlrmmjHweFUS0idJJKlTWB.jpg",
+    "description": "Based on Alice Walker's novel, this film portrays the life of an African-American woman named Celie in the early 20th century. (PG-13)"
+  },
+  {
+    "title": "Coming to America (1988) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/original/os1vUxxiRYNAq21phgH2B3eNX4r.jpg",
+    "description": "Eddie Murphy stars as an African prince who travels to America to find true love and escape his arranged marriage. (R)"
+  },
+  {
+    "title": "Coming 2 America (2021) - IMDb: 5.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/nWBPLkqNApY5pgrJFMiI9joSI30.jpg",
+    "description": "Prince Akeem returns to America when he discovers he has a long-lost son, igniting a new comedic adventure filled with hilarious encounters and cultural clashes. (PG-13)"
+  },
+  {
+    "title": "Do the Right Thing (1989) - IMDb: 7.9/10",
+    "image": "https://image.tmdb.org/t/p/w500/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+    "description": "Spike Lee's iconic film explores racial tensions in a Brooklyn neighborhood during a scorching summer day. (R)"
+  },
+  {
+    "title": "Precious (2009) - IMDb: 7.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/d4ltLIDbvZskSwbzXqi0Hfv5ma4.jpg",
+    "description": "A powerful drama about an abused and illiterate teenager named Precious who strives for a better life. (R)"
+  },
+  {
+    "title": "A Raisin in the Sun (1961) - IMDb: 8.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/fxGAJFfryAgdi4ONkVyrBWKDBbI.jpg",
+    "description": "Adapted from Lorraine Hansberry's play, this film explores the struggles of a Black family in 1950s Chicago. (NR)"
+  },
+  {
+    "title": "The Pursuit of Happiness (2006) - IMDb: 8.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/iYo5CVSiZomq37fv5qnmOoi0Ynh.jpg",
+    "description": "Based on a true story, this film follows Chris Gardner's journey from homelessness to a successful career as a stockbroker. (PG-13)"
+  },
+  {
+    "title": "Creed (2015) - IMDb: 7.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/1BfTsk5VWuw8FCocAhCyqnRbEzq.jpg",
+    "description": "A sports drama that follows Adonis Creed, the son of Apollo Creed, as he trains to become a professional boxer under the guidance of Rocky Balboa. (PG-13)"
+  },
+  {
+    "title": "The Butler (2013) - IMDb: 7.2/10",
+    "image": "https://image.tmdb.org/t/p/w500/qyWvpylSqs7wmA4TrUIrGCgWJtv.jpg",
+    "description": "A historical drama about a White House butler who served eight American presidents and witnessed significant moments in American history. (PG-13)"
+  },
+  {
+    "title": "Beloved (1998) - IMDb: 6.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/jIoT0J2fNXXCYZst6OkKStQIPw9.jpg",
+    "description": "In 1873 Ohio, Sethe (Oprah Winfrey) is a mother of three haunted by her horrific slavery past and her desperate... Directed by Jonathan Demme."
+  },
+  {
+    "title": "Candyman (1992) - IMDb: 6.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/n38YbNqUf5KWpMJFc4X3t0rlhg5.jpg",
+    "description": "A supernatural horror film centered around the legend of Candyman, a vengeful spirit, starring Tony Todd. (R)"
+  },
+  {
+    "title": "Candyman (2021) - IMDb: 6.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/qeV15PpR8jFJA9TF9JPXIoqEgp1.jpg",
+    "description": "A modern reimagining of the classic Candyman story, featuring Yahya Abdul-Mateen II in the lead role. (R)"
+  },
+  {
+    "title": "His House (2020) - IMDb: 6.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/idh2QAy5NwBRN94ScmtWrukvOgJ.jpg",
+    "description": "A refugee couple from South Sudan tries to adjust to life in the UK while haunted by a sinister force. (TV-MA)"
+  },
+  {
+    "title": "Tales from the Hood (1995) - IMDb: 6.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/glPNCcI7V8zTTI3BG0iIUJJcwXN.jpg",
+    "description": "An anthology horror film that blends supernatural horror with social commentary, directed by Rusty Cundieff. (R)"
+  },
+  {
+    "title": "Tales from the Hood 2 (2018) - IMDb: 4.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/k93d4au1KByYKi6FsE0dLrKWowj.jpg",
+    "description": "The sequel to the 1995 anthology horror film, featuring a new set of stories that explore social issues and supernatural horror. Directed by Darin Scott. (R)"
+  },
+  {
+    "title": "Tales from the Hood 3 (2020) - IMDb: 4.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/fT27GgfhKys7aLqXIzhIdv5RLBT.jpg",
+    "description": "The third installment in the anthology series, continuing to blend horror with social commentary. Directed by Rusty Cundieff and Darin Scott. (R)"
+  },
+  {
+    "title": "Vampires vs. the Bronx (2020) - IMDb: 5.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/rcdBUbbYNccz8q9LOuBEKC1avMA.jpg",
+    "description": "A group of young friends in the Bronx discovers their neighborhood is being overrun by vampires. (PG-13)"
+  },
+  {
+    "title": "Bones (2001) - IMDb: 4.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/7UOHEPTQMaiwaI14CGxd5yFAPMZ.jpg",
+    "description": "A murdered gangster, played by Snoop Dogg, returns to wreak supernatural revenge on those who wronged him. (R)"
+  },
+  {
+    "title": "The People Under the Stairs (1991) - IMDb: 6.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/8OWDBVmGdM7HwaDtbDsdn6Rlzqj.jpg",
+    "description": "A young boy becomes trapped inside a house filled with disturbing secrets in this Wes Craven cult classic. (R)"
+  },
+  {
+    "title": "Spell (2020) - IMDb: 5.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/9clw9UBQXmi3EFgjgIPGJSluQr7.jpg",
+    "description": "A man, played by Omari Hardwick, survives a plane crash only to fall under the control of a sinister hoodoo practitioner. (R)"
+  },
+  {
+    "title": "Bad Hair (2020) - IMDb: 5.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/979LvAwRGCkVFgJ04uyPcsPaPF2.jpg",
+    "description": "A horror satire about a woman in the 1980s whose new weave has a mind of its own. Directed by Justin Simien. (TV-MA)"
+  },
+  {
+    "title": "Us (2019) - IMDb: 6.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg",
+    "description": "A family is confronted by terrifying doppelg\u00e4ngers in Jordan Peele's psychological horror, starring Lupita Nyong'o. (R)"
+  },
+  {
+    "title": "Ganja & Hess (1973) - IMDb: 6.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/gXH43R5Avru4YPUF7WoQLrxPUP2.jpg",
+    "description": "A unique blend of vampire horror and Black culture, starring Duane Jones as a man who becomes immortal after an ancient curse. (R)"
+  },
+  {
+    "title": "The House on Skull Mountain (1974) - IMDb: 5.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/obIfAZlmsCe7cl0ikeo2a2itZvG.jpg",
+    "description": "An eerie horror film about a family haunted by their ancestor's voodoo practices after her death. (PG)"
+  },
+  {
+    "title": "Ma (2019) - IMDb: 5.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/6n7ASmQ1wY2cxTubFFGlcvPpyk7.jpg",
+    "description": "Octavia Spencer stars as a lonely woman who invites teens to party in her basement, but her hospitality takes a sinister turn. (R)"
+  },
+  {
+    "title": "The Transfiguration (2016) - IMDb: 6.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/mDSfmGdKnh2juq7hvnJKbyn5GqV.jpg",
+    "description": "A psychological horror about a troubled teen with an obsession for vampires, blending coming-of-age themes with dark, haunting visuals. (Not Rated)"
+  },
+  {
+    "title": "J.D.'s Revenge (1976) - IMDb: 6.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/s9uQYcIJj3W4bsIhY1ohqpVYqga.jpg",
+    "description": "A man becomes possessed by the vengeful spirit of a 1940s gangster in this Blaxploitation supernatural horror. (R)"
+  },
+  {
+    "title": "Blacula (1972) - IMDb: 5.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/yLqtFeZfRPoUUzzro3ogCdobB6q.jpg",
+    "description": "A Blaxploitation classic about an African prince cursed to live as a vampire, played by William Marshall. (PG)"
+  },
+  {
+    "title": "Scream Blacula Scream (1973) - IMDb: 5.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/lxzscvc7rBkvahgCCa4mxFeZZ8v.jpg",
+    "description": "The sequel to Blacula, where the vampire returns to seek revenge after being resurrected by a voodoo priestess. (PG)"
+  },
+  {
+    "title": "Tales From the Crypt Presents Demon Knight (1995) - IMDb: 6.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/1TekTWa1htkb554KDplTXskQupo.jpg",
+    "description": "Ex-soldier Frank Brayker (William Sadler) is the guardian of an ancient key that can unlock tremendous evil; the sinister but... (R). Directed by Ernest R. Dickerson."
+  },
+  {
+    "title": "Blade (1998) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/oWT70TvbsmQaqyphCZpsnQR7R32.jpg",
+    "description": "A half-mortal, half-immortal is out to avenge his mother's death and rid the world of vampires. Directed by Stephen Norrington."
+  },
+  {
+    "title": "Black Box (2020) - IMDb: 6.2/10",
+    "image": "https://image.tmdb.org/t/p/w500/ldlpTitpSTBINwgifzlRRXveXUF.jpg",
+    "description": "After losing his wife and memory in a car accident, a single father undergoes an agonizing experimental treatment that causes... Directed by Emmanuel Osei-Kuffour."
+  },
+  {
+    "title": "Blade II (2002) - IMDb: 6.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/azzTa03g0Fb8HC7O3521qq0oc8Q.jpg",
+    "description": "Exploding from the pages of Marvel Comics comes the thrilling follow-up to the blockbuster 'Blade.' Directed by Guillermo del Toro."
+  },
+  {
+    "title": "Sweetheart (2019) - IMDb: 5.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/xyPPBPkGbZxfS6UM4PjR5bnVfwR.jpg",
+    "description": "A shipwreck survivor on an uninhabited island must fend off a malevolent force that surfaces each night. Directed by J.D. Dillard."
+  },
+  {
+    "title": "Def by Temptation (1990) - IMDb: 4.9/10",
+    "image": "https://image.tmdb.org/t/p/w500/cC96OjOeYXmBF6RuePlxA709tkz.jpg",
+    "description": "Joel (James Bond III), a quiet divinity student from North Carolina, starts to question his faith. Directed by James Bond III."
+  },
+  {
+    "title": "Vampire in Brooklyn (1995) - IMDb: 4.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/fodPA5x3REtOwColG17CucreZqM.jpg",
+    "description": "In the wake of her mother's death in a mental institution, detective Rita Veder (Angela Bassett) is assigned to a... Directed by Wes Craven."
+  },
+  {
+    "title": "The Boy Behind the Door (2020) - IMDb: 6.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/6e53nMgW5pXBMCc6AMvnXLWspFJ.jpg",
+    "description": "A night of unimaginable terror awaits twelve-year-old Bobby (Lonnie Chavis) and his best friend... Directed by David Charbonier, Justin Powell."
+  },
+  {
+    "title": "Attack the Block (2011) - IMDb: 6.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/wzCMnA6NDruLzgWeqMcLPDrGAdF.jpg",
+    "description": "A teen gang in South London defend their block from an alien invasion. Directed by Joe Cornish."
+  },
+  {
+    "title": "The Purge: Anarchy (2014) - IMDb: 6.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/qwqHHZLZSUvMkAMQ47ymtfjEifY.jpg",
+    "description": "Three groups of people intertwine and are left stranded in the streets on Purge Night, trying to survive the chaos and violence that occurs. Directed by James DeMonaco."
+  },
+  {
+    "title": "28 Days Later (2002) - IMDb: 7.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/sQckQRt17VaWbo39GIu0TMOiszq.jpg",
+    "description": "Four weeks after a mysterious, incurable virus spreads throughout the United Kingdom, a handful of survivors try to find sanctuary. Directed by Danny Boyle."
+  },
+  {
+    "title": "Pitch Black (2000) - IMDb: 7.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/3AnlxZ5CZnhKKzjgFyY6EHxmOyl.jpg",
+    "description": "A transport ship crashes and leaves its crew stranded on a desert planet inhabited by bloodthirsty creatures that come out during an eclipse. Directed by David Twohy."
+  },
+  {
+    "title": "The Serpent and the Rainbow (1988) - IMDb: 6.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/oO1pwZtZcHDafy7cqYSRXF3ogwc.jpg",
+    "description": "An anthropologist goes to Haiti after hearing rumors about a drug used by black magic practitioners to turn people into zombies. Directed by Wes Craven."
+  },
+  {
+    "title": "Event Horizon (1997) - IMDb: 6.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/qfluaDXv0cIdLwgQWzNB2piHL2q.jpg",
+    "description": "A rescue crew is tasked with investigating the mysterious reappearance of a spaceship that had been lost for seven years. Directed by Paul W.S. Anderson."
+  },
+  {
+    "title": "The Invitation (2015) - IMDb: 6.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/4gxZW8AHg9kIOh5BgaSrq5gO1KB.jpg",
+    "description": "When a man accepts an invitation to a dinner party hosted by his ex-wife, the unsettling past reopens old wounds and creates new tensions. Directed by Karyn Kusama."
+  },
+  {
+    "title": "Jeepers Creepers 2 (2003) - IMDb: 5.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/u2ghDfjcs3y5c8ata3COc4pWiAN.jpg",
+    "description": "Set a few days after the original, a championship basketball team's bus is attacked by The Creeper, the winged, flesh-eating terror, on the last day of his 23-day feeding frenzy. Directed by Victor Salva."
+  },
+  {
+    "title": "Isolation (2005) - IMDb: 5.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/6CpGHO5cnZgWKKeqjCXaEwvk8Q8.jpg",
+    "description": "On a remote Irish farm, five people become unwilling participants in an experiment that goes nightmarishly wrong. Directed by Billy O'Brien."
+  },
+  {
+    "title": "It Comes at Night (2017) - IMDb: 6.2/10",
+    "image": "https://image.tmdb.org/t/p/w500/nzkPqO2bp251UqnpjfJ7R90in7.jpg",
+    "description": "Secure within a desolate home as an unnatural threat terrorizes the world, a man has established a tenuous domestic order with his wife and son. Then a desperate young family arrives seeking refuge. Directed by Trey Edward Shults."
+  },
+  {
+    "title": "Fallen (1998) - IMDb: 7.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/nEDvTB9cP2oIKY0M1ZdDvuUEJ8d.jpg",
+    "description": "Homicide detective John Hobbes witnesses the execution of serial killer Edgar Reese. Soon after the execution, the killings start again, and they are very similar to Reese's style. Directed by Gregory Hoblit."
+  },
+  {
+    "title": "Tragedy Girls (2017) - IMDb: 6.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/3UgRc3vpOiW9HOAD7oBa16xQ21E.jpg",
+    "description": "A twist on the slasher genre, following two death-obsessed teenage girls who use their online show about real-life tragedies to send their small mid-western town into a frenzy, and cement their legacy as modern horror legends. Directed by Tyler MacIntyre."
+  },
+  {
+    "title": "Predator 2 (1990) - IMDb: 6.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/83X4VwY9sdSJykskmsplIVG0a4h.jpg",
+    "description": "The Predator returns to Earth, this time to stake a claim on the war-torn streets of a dystopian Los Angeles. Directed by Stephen Hopkins."
+  },
+  {
+    "title": "Land of the Dead (2005) - IMDb: 6.2/10",
+    "image": "https://image.tmdb.org/t/p/w500/c3BV0jdP8bAFXj7lSLRudT8kYnx.jpg",
+    "description": "The living dead have taken over the world, and the last humans live in a walled city to protect themselves as they come to grips with the situation. Directed by George A. Romero."
+  },
+  {
+    "title": "The Girl with All the Gifts (2016) - IMDb: 6.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/vdCD8z55a4RNmHQDPIpuMFqoY2B.jpg",
+    "description": "A scientist and a teacher living in a dystopian future embark on a journey of survival with a special young girl named Melanie. Directed by Colm McCarthy."
+  },
+  {
+    "title": "Switchback (1997) - IMDb: 6.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/3v4nX475G97Vd8XCapTKQ7NTqMs.jpg",
+    "description": "An FBI agent tries to catch a serial killer who kidnapped his son. Directed by Jeb Stuart."
+  },
+  {
+    "title": "Alien vs. Predator (2004) - IMDb: 5.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/ySWu5bCnnmgV1cVacvFnFIhgOjp.jpg",
+    "description": "During an archaeological expedition on Bouvet\u00f8ya Island in Antarctica, a team of archaeologists and other scientists find themselves caught up in a battle between the two legends. Soon, the team realize that only one species can win. Directed by Paul W.S. Anderson."
+  },
+  {
+    "title": "The Cloverfield Paradox (2018) - IMDb: 5.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/vJi2ExTcWdJR3150VPKqqtdGxsT.jpg",
+    "description": "Orbiting a planet on the brink of war, scientists test a device to solve an energy crisis, and end up face-to-face with a dark alternate reality. Directed by Julius Onah."
+  },
+  {
+    "title": "Night of the Living Dead (1990) - IMDb: 6.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/isp4lCv08asTPNvv8Xe8oQK293n.jpg",
+    "description": "When the unburied dead return to life and seek human victims, seven refugees shelter in a house in the Pennsylvanian countryside. Directed by Tom Savini."
+  },
+  {
+    "title": "House on Haunted Hill (1999) - IMDb: 5.9/10",
+    "image": "https://image.tmdb.org/t/p/w500/weiGTsZqBglKxkIn5xj1nEjxn81.jpg",
+    "description": "A wealthy thrill-seeker offers a group of diverse people $1,000,000 to spend the night in a haunted house with a horrifying history. Directed by William Malone."
+  },
+  {
+    "title": "Shaft (1971) - IMDb: 6.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/yJChPuu2V339IiDPQDHeIh1SYpA.jpg",
+    "description": "A blaxploitation classic following private detective John Shaft as he navigates Harlem's criminal underworld to rescue a kidnapping victim. (R)"
+  },
+  {
+    "title": "Boyz n the Hood (1991) - IMDb: 7.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/v4ox4aSCNT5vyLXl4Q71JiWwCXW.jpg",
+    "description": "John Singleton's groundbreaking drama about growing up in South Central Los Angeles, exploring gang violence and systemic racism. (R)"
+  },
+  {
+    "title": "Love & Basketball (2000) - IMDb: 7.2/10",
+    "image": "https://image.tmdb.org/t/p/w500/zNZWNX19FZ5QyedprVM0ldsXFiP.jpg",
+    "description": "A romantic drama tracing the relationship between two aspiring basketball players from childhood through adulthood. (PG-13)"
+  },
+  {
+    "title": "Training Day (2001) - IMDb: 7.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/bUeiwBQdupBLQthMCHKV7zv56uv.jpg",
+    "description": "Denzel Washington stars as a corrupt narcotics detective testing a rookie officer during a chaotic 24-hour patrol in LA. (R)"
+  },
+  {
+    "title": "Dreamgirls (2006) - IMDb: 6.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/sG5JyOj8Spe13QkNJMH8b5kzQUh.jpg",
+    "description": "A musical drama following the rise of a 1960s girl group inspired by The Supremes, featuring powerhouse vocal performances. (PG-13)"
+  },
+  {
+    "title": "The Hate U Give (2018) - IMDb: 7.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/2icwBom0t5nmOuZI9FVXF3gkMK0.jpg",
+    "description": "A teenager witnesses the police shooting of her childhood friend, forcing her to confront activism and community tensions. (PG-13)"
+  },
+  {
+    "title": "Harriet (2019) - IMDb: 6.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/rsUs58bDqpJJxZSOebZOMN9gzw2.jpg",
+    "description": "Biopic of Harriet Tubman, chronicling her escape from slavery and heroic work with the Underground Railroad. (PG-13)"
+  },
+  {
+    "title": "Judas and the Black Messiah (2021) - IMDb: 7.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/iIgr75GoqFxe1X5Wz9siOODGe9u.jpg",
+    "description": "The true story of Fred Hampton's leadership in the Black Panther Party and the FBI's infiltration efforts. (R)"
+  },
+  {
+    "title": "Friday (1995) - IMDb: 7.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/2lReF53F8trkC68piGSfk0JVwWU.jpg",
+    "description": "A stoner comedy following two friends in South Central LA as they navigate neighborhood antics and local bullies. (R)"
+  },
+  {
+    "title": "Menace II Society (1993) - IMDb: 7.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/nS7yqmSVeNoH22VXj69JoFCxW1h.jpg",
+    "description": "A gritty portrayal of gang life in Watts, Los Angeles, following a young man's struggle to escape cyclical violence. (R)"
+  },
+  {
+    "title": "The Wiz (1978) - IMDb: 5.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/rgfB8hBRSwbEb0SK7pt9mW9jsyP.jpg",
+    "description": "An urban retelling of The Wizard of Oz featuring an all-Black cast, including Diana Ross and Michael Jackson. (G)"
+  },
+  {
+    "title": "Bamboozled (2000) - IMDb: 6.9/10",
+    "image": "https://image.tmdb.org/t/p/w500/oAg1mUUxdWJNLa6t1gctbQhXHVN.jpg",
+    "description": "Spike Lee's satirical film about a TV executive who creates a modern minstrel show, critiquing media racism. (R)"
+  },
+  {
+    "title": "Eve's Bayou (1997) - IMDb: 7.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/33yTPcGSv7eo3FVlb7XKACHl1M8.jpg",
+    "description": "A Southern Gothic drama about a Creole family's secrets and a young girl's coming-of-age in 1960s Louisiana. (R)"
+  },
+  {
+    "title": "The Tuskegee Airmen (1995) - IMDb: 7.2/10",
+    "image": "https://image.tmdb.org/t/p/w500/8xgYqh9XlFLusp4R8u5ocZM0WjV.jpg",
+    "description": "Historical drama about the first Black pilots in the U.S. Army Air Forces during WWII. (PG-13)"
+  },
+  {
+    "title": "Crooklyn (1994) - IMDb: 7.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/iFqe07F78SO0SIBzWcK4I5MwNvP.jpg",
+    "description": "Spike Lee's semi-autobiographical film about a Brooklyn family's joys and struggles in the 1970s. (PG-13)"
+  },
+  {
+    "title": "What's Love Got to Do with It (1993) - IMDb: 7.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/vNAYuA26Wtf7VfzZEaxZQmJTE4Z.jpg",
+    "description": "Biopic of Tina Turner's rise to fame and survival through an abusive marriage to Ike Turner. (R)"
+  },
+  {
+    "title": "Rosewood (1997) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/5EeTYDXdrpD9mZSSwsrFbqgok9U.jpg",
+    "description": "Based on the 1923 massacre of a Black Florida town, this film examines racial violence and community resilience. (R)"
+  },
+  {
+    "title": "BlacKkKlansman (2018) - IMDb: 7.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
+    "description": "Spike Lee's true-story drama about a Black detective infiltrating the Ku Klux Klan in 1970s Colorado. (R)"
+  },
+  {
+    "title": "Ma Rainey's Black Bottom (2020) - IMDb: 6.9/10",
+    "image": "https://image.tmdb.org/t/p/w500/pvtyxijaBrCSbByXLcUIDDSvc40.jpg",
+    "description": "A tense drama about a 1927 recording session with blues legend Ma Rainey, featuring Chadwick Boseman's final performance. (R)"
+  },
+  {
+    "title": "One Night in Miami (2020) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/1DLUb9PTDqXMSgsD7RmiJs7ZJIx.jpg",
+    "description": "A fictionalized account of a 1964 meeting between Malcolm X, Muhammad Ali, Sam Cooke, and Jim Brown. (R)"
+  },
+  {
+    "title": "13th (2016) - IMDb: 8.2/10",
+    "image": "https://image.tmdb.org/t/p/w500/tcKNWD6IFPPsvkpvyZ548naz0is.jpg",
+    "description": "Ava DuVernay's documentary exploring racial inequality and the mass incarceration of African Americans. (TV-MA)"
+  },
+  {
+    "title": "If Beale Street Could Talk (2018) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/76NfwnaZI43gOQove0LU9O23Qjz.jpg",
+    "description": "Barry Jenkins' romantic drama about a pregnant woman fighting to prove her fianc\u00e9's innocence in 1970s Harlem. (R)"
+  },
+  {
+    "title": "Da 5 Bloods (2020) - IMDb: 6.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/yx4cp1ljJMDSFeEex0Zjv45b55E.jpg",
+    "description": "Spike Lee's war drama following Black Vietnam veterans returning to find buried treasure and confront their past. (R)"
+  },
+  {
+    "title": "The Harder They Fall (2021) - IMDb: 6.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/su9WzL7lwUZPhjH6eZByAYFx2US.jpg",
+    "description": "A stylish Western featuring an all-Black cast, centered on outlaw Nat Love's quest for revenge. (R)"
+  },
+  {
+    "title": "Sorry to Bother You (2018) - IMDb: 6.9/10",
+    "image": "https://image.tmdb.org/t/p/w500/peTl1V04E9ppvhgvNmSX0r2ALqO.jpg",
+    "description": "A surreal satire about a telemarketer who discovers bizarre corporate secrets while climbing the career ladder. (R)"
+  },
+  {
+    "title": "School Daze (1988) - IMDb: 6.5/10",
+    "image": "https://image.tmdb.org/t/p/w500/vnfjKHcmah7ReMxLNF18JMXFgSZ.jpg",
+    "description": "Spike Lee's musical comedy-drama exploring colorism and social politics at a historically Black college. (R)"
+  },
+  {
+    "title": "Devil in a Blue Dress (1995) - IMDb: 7.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/5lcJhwKGavLbPva17QkTBhLfqEk.jpg",
+    "description": "A neo-noir mystery following Easy Rawlins, a Black WWII vet turned detective in 1940s Los Angeles. (R)"
+  },
+  {
+    "title": "House Party (1990) - IMDb: 6.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/hmUsEUI7RdgvTznkLCNSOHnjU4O.jpg",
+    "description": "A hip-hop comedy about two friends trying to host the ultimate house party while avoiding trouble. (R)"
+  },
+  {
+    "title": "Waiting to Exhale (1995) - IMDb: 6.6/10",
+    "image": "https://image.tmdb.org/t/p/w500/qJU6rfil5xLVb5HpJsmmfeSK254.jpg",
+    "description": "A drama following four Black women navigating love, careers, and friendships in Phoenix, Arizona. (R)"
+  },
+  {
+    "title": "B\u00e9b\u00e9's Kids (1992) - IMDb: 5.9/10",
+    "image": "https://image.tmdb.org/t/p/w500/uuUHtdsxLqr79QlCCnJNwPkOTTB.jpg",
+    "description": "An animated comedy about a man's chaotic date at an amusement park with his girlfriend and her unruly children. (PG-13)"
+  },
+  {
+    "title": "Eyes on the Prize (1987) - IMDb: 9.0/10",
+    "image": "https://image.tmdb.org/t/p/w500/vWxxVsKW5rKXvQbFKyyyZKN2O1C.jpg",
+    "description": "Landmark documentary series chronicling the Civil Rights Movement from 1954 to 1985. (NR)"
+  },
+  {
+    "title": "The Best Man (1999) - IMDb: 6.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/ub2Njdn4kq49ndyg7QglnE8PUqT.jpg",
+    "description": "A romantic comedy-drama about college friends reuniting for a wedding while confronting past secrets. (R)"
+  },
+  {
+    "title": "Carmen Jones (1954) - IMDb: 6.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/5Vo4NeE7dlXBUaikbGnUOmUNHJ3.jpg",
+    "description": "An all-Black musical adaptation of Carmen set during WWII, starring Dorothy Dandridge and Harry Belafonte. (Approved)"
+  },
+  {
+    "title": "Cooley High (1975) - IMDb: 7.4/10",
+    "image": "https://image.tmdb.org/t/p/w500/r9Kj0EAqoXK22epzevx4QyXrllM.jpg",
+    "description": "A coming-of-age comedy-drama following Chicago teens in the 1960s, inspiring later films like 'Dazed and Confused.' (PG)"
+  },
+  {
+    "title": "Sweet Sweetback's Baadasssss Song (1971) - IMDb: 5.7/10",
+    "image": "https://image.tmdb.org/t/p/w500/ykGkbDp1QxQTM3UUrUvowtXLI0i.jpg",
+    "description": "A revolutionary blaxploitation film about a Black man on the run from police after defending a civil rights activist. (X)"
+  },
+  {
+    "title": "Super Fly (1972) - IMDb: 6.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/lCj4IZ9l8NfOEiM4zHq3BRF2LzX.jpg",
+    "description": "A cocaine dealer tries to make one last big score in this influential blaxploitation film with a iconic Curtis Mayfield soundtrack. (R)"
+  },
+  {
+    "title": "Hollywood Shuffle (1987) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/xidkzvrJfBeZ6wVcVOxobZruiR7.jpg",
+    "description": "A satirical comedy about a Black actor struggling with stereotypical roles in Hollywood. (R)"
+  },
+  {
+    "title": "Glory (1989) - IMDb: 7.8/10",
+    "image": "https://image.tmdb.org/t/p/w500/pGDzBjZvzmSCIEduQBfESLMiwtp.jpg",
+    "description": "Historical drama about the 54th Massachusetts Infantry Regiment, one of the first Black units in the Civil War. (R)"
+  },
+  {
+    "title": "Akeelah and the Bee (2006) - IMDb: 7.3/10",
+    "image": "https://image.tmdb.org/t/p/w500/tLejxaLJu8Qh5F2VKacWniMSZ3v.jpg",
+    "description": "An inspirational drama about an 11-year-old girl from South LA competing in the National Spelling Bee. (PG)"
+  },
+  {
+    "title": "Pariah (2011) - IMDb: 7.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/lX9Ss9LH3bsAoGWDvsPv4zZG9fa.jpg",
+    "description": "A coming-of-age story about a Black lesbian teenager navigating family expectations and self-discovery. (R)"
+  },
+  {
+    "title": "Dear White People (2014) - IMDb: 6.1/10",
+    "image": "https://image.tmdb.org/t/p/w500/jH3851P2DjjnBsrjphbR1CWRzm6.jpg",
+    "description": "A satirical comedy-drama exploring racial tensions at a predominantly white Ivy League university. (R)"
+  }
+]
